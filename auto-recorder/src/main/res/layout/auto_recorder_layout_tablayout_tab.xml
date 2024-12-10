@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    tools:background="@android:color/black">
+
+    <TextView
+        android:id="@+id/auto_tablayout_tab_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:maxLength="3"
+        android:paddingStart="10dp"
+        android:paddingEnd="10dp"
+        android:textColor="@color/auto_tab_tile_selected"
+        android:textSize="14dp"
+        tools:text="美颜" />
+
+    <View
+        android:id="@+id/auto_tablayout_tab_indicator"
+        android:layout_width="25dp"
+        android:layout_height="2.5dp"
+        android:layout_marginTop="8dp"
+        android:background="@drawable/auto_recorder_tab_indicator_bg" />
+</LinearLayout>

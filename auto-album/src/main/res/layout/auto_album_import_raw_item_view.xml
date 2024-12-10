@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <TextView
+        android:id="@+id/duration_view"
+        style="@style/tools_font_size_24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:background="@null"
+        android:gravity="center_vertical|start"
+        android:paddingStart="7dp"
+        android:paddingLeft="7dp"
+        android:paddingEnd="7dp"
+        android:paddingRight="7dp"
+        android:paddingBottom="5dp"
+        android:shadowColor="@color/s6_60"
+        android:shadowDx="0"
+        android:shadowDy="3"
+        android:shadowRadius="6"
+        android:textColor="@color/tools_std_text_primary"
+        tools:text="00:00"
+        tools:textColor="@color/tools_std_primary" />
+
+    <View
+        android:id="@+id/shadow_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/tools_media_item_shadow"
+        android:visibility="gone" />
+
+    <FrameLayout
+        android:id="@+id/fl_image_select_indicator"
+        android:layout_width="36dp"
+        android:layout_height="36dp"
+        android:layout_gravity="end|right"
+        android:background="@drawable/tools_media_import_bg_media_select_indicator"
+        tools:ignore="RtlHardcoded">
+
+        <TextView
+            android:id="@+id/image_select_indicator"
+            style="@style/tools_font_size_22"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_gravity="end|right"
+            android:layout_marginTop="4dp"
+            android:layout_marginEnd="4dp"
+            android:background="@drawable/eo_album_picker_list_add"
+            android:gravity="center"
+            tools:text="1" />
+
+    </FrameLayout>
+
+    <View
+        android:id="@+id/txt_multi_selected"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/auto_album_list_selected"
+        android:visibility="gone" />
+
+    <TextView
+        android:id="@+id/type_label"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom|end"
+        android:layout_marginEnd="4dp"
+        android:layout_marginBottom="4dp"
+        android:background="@drawable/eo_album_type_label_bg"
+        android:gravity="center"
+        android:paddingHorizontal="4dp"
+        android:paddingVertical="2dp"
+        android:textColor="@color/ConstTextInverse1"
+        android:textSize="10dp"
+        tools:visibility="gone"
+        tools:ignore="SpUsage" />
+</merge>

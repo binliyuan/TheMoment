@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<resources>
+    <string name="eo_album_title">Album</string>
+    <string name="eo_album_localAlbum">Local</string>
+    <string name="eo_album_tips_selectedCount">%d item selected</string>
+    <string name="eo_album_tips">You can select both photos and videos</string>
+    <string name="eo_album_photos">Image</string>
+    <string name="eo_album_photos_videos">Video</string>
+    <string name="eo_album_all">All</string>
+    <string name="eo_album_preview">Preview</string>
+    <string name="eo_album_preview_select">Select</string>
+    <string name="eo_album_audio_extract_selection">Select the video you want to extract</string>
+    <string name="eo_album_confirm">Next</string>
+    <string name="eo_album_no_video">No video files found</string>
+    <string name="eo_album_no_image">No image files found</string>
+    <string name="eo_album_no_media">No video and image files found</string>
+    <string name="eo_album_tips_video_min_duration">The video length must be no less than %ss</string>
+    <string name="eo_album_tips_video_max_duration">The video length must be no more than %ss</string>
+    <string name="eo_album_material_not_supported">The selected material is not supported for import.</string>
+    <string name="eo_album_material_limit_tips">The assets amount cannot exceed %d</string>
+    <string name="eo_album_add">Add</string>
+    <string name="eo_album_gif_tag">GIF</string>
+    <string name="auto_album_docker_selected_count">已选择 %d 段素材</string>
+    <string name="eo_album_material_not_exist">material has been deleted, please select again</string>
+</resources>

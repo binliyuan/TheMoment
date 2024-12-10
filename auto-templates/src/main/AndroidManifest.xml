@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <uses-permission
+        android:name="android.permission.READ_EXTERNAL_STORAGE"
+        android:maxSdkVersion="32" />
+    <application>
+        <activity
+            android:name=".ui.AutoTemplatesHomeActivity"
+            android:screenOrientation="landscape"
+            android:exported="false"
+            android:theme="@style/Theme.EffectOne.CommonPage"
+            tools:ignore="DiscouragedApi" />
+
+        <activity
+            android:name=".ui.AutoCutSameActivity"
+            android:exported="false"
+            android:launchMode="singleTask"
+            android:screenOrientation="landscape"
+            android:theme="@style/CutSame.Transparent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize"
+            tools:ignore="DiscouragedApi">
+            <intent-filter>
+                <action android:name="auto_cutsame_preview_page" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".ui.AutoMomentCutSameActivity"
+            android:screenOrientation="landscape"
+            android:exported="false"
+            android:theme="@style/CutSame.Transparent"
+            android:windowSoftInputMode="stateAlwaysHidden|adjustResize"
+            android:launchMode="singleTask"
+            tools:ignore="DiscouragedApi" />
+
+        <activity
+            android:name=".ui.AutoCutSameClipActivity"
+            android:exported="false"
+            android:screenOrientation="landscape"
+            tools:ignore="DiscouragedApi" />
+
+        <activity
+            android:name=".ui.AutoComposeActivity"
+            android:screenOrientation="landscape"
+            android:exported="false"
+            android:theme="@style/CutSame.Transparent"
+            tools:ignore="DiscouragedApi" />
+
+        <activity
+            android:name=".ui.AutoCutSameExportActivity"
+            android:screenOrientation="landscape"
+            android:exported="false"
+            android:theme="@style/Theme.EffectOne.CommonPage"
+            tools:ignore="DiscouragedApi" />
+
+        <activity
+            android:name=".ui.AutoCutSameAlbumActivity"
+            android:screenOrientation="landscape"
+            android:exported="false"
+            android:theme="@style/Theme.EffectOne.CommonPage"
+            tools:ignore="DiscouragedApi" />
+
+        <activity
+            android:name=".ui.AutoTemplatePreviewActivity"
+            android:screenOrientation="landscape"
+            android:exported="false"
+            android:theme="@style/Theme.EffectOne.CommonPage"
+            tools:ignore="DiscouragedApi" />
+    </application>
+</manifest>

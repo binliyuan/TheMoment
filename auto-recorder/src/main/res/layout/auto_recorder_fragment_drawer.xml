@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline_seekbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="61dp" />
+
+    <LinearLayout
+        android:id="@+id/auto_recorder_beauty_container"
+        android:layout_width="61dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center_vertical"
+        android:background="@drawable/auto_recorder_seekbar_bg"
+        app:layout_constraintEnd_toStartOf="@+id/auto_recorder_drawer_container"
+        android:visibility="gone"
+        tools:visibility="visible"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <TextView
+            android:id="@+id/auto_recorder_beauty_name"
+            android:layout_width="match_parent"
+            android:textColor="#EEEEEE"
+            android:gravity="center"
+            android:layout_marginTop="22dp"
+            android:textSize="14dp"
+            android:text="磨皮"
+            android:layout_height="wrap_content" />
+
+        <com.volcengine.effectone.auto.recorder.widget.EOVerticalIndicatorSeekBar
+            android:id="@+id/auto_recorder_seekbar"
+            style="@style/EffectOne.Camera.BeautySeekbar"
+            android:layout_width="32dp"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:background="@null"
+            android:maxHeight="4dp"
+            android:progress="0" />
+
+        <TextView
+            android:id="@+id/auto_recorder_progress"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textColor="#EEEEEE"
+            android:text="45%"
+            android:gravity="center"
+            android:layout_marginBottom="20dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/auto_recorder_drawer_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:background="@drawable/auto_recorder_drawer_bg"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/guideline_seekbar"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <com.google.android.material.tabs.TabLayout
+            android:id="@+id/auto_recorder_drawer_tablayout"
+            android:layout_width="wrap_content"
+            android:layout_height="50dp"
+            app:tabIndicatorFullWidth="false"
+            app:tabMode="scrollable"
+            app:tabMaxWidth="70dp"
+            app:tabGravity="start"
+            app:tabPaddingStart="10dp"
+            app:tabPaddingEnd="10dp"
+            app:tabIndicator="@null"
+            app:tabIndicatorHeight="0dp"
+            app:tabTextAppearance="@style/EffectOne.Camera.TabLayoutTextStyle" />
+
+        <androidx.viewpager2.widget.ViewPager2
+            android:id="@+id/auto_recorder_drawer_viewpager2"
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,143 @@
+{
+  "cover": "",
+  "id": "1706516129",
+  "isPOI": false,
+  "title": "出行计划",
+  "config": {
+    "id": "3d5bf7ad-a94a-430a-94c1-48f33fe2d73f",
+    "momentTemplates": [],
+    "requirement": {
+      "maxFilterCity": 1,
+      "minCount": 10,
+      "minScores": 0.6,
+      "pathFilter": "",
+      "requireTags": [
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "火烧云"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "星空（银河/星轨/极光）"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "桥"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "沙滩"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "礁石"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "闪电"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "露营"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "彩虹"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "云"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "蓝天白云"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "乌云"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "月亮"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "夜景"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "烟花"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "船舶"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "栈道"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "火"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "霓虹灯"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "雨天"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "树"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "单人"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "双人"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "多人"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "老人"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "儿童"
+        }
+      ]
+    }
+  }
+}

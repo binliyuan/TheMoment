@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="eo_frontpage_videoeditor">Video Editor</string>
+    <string name="eo_frontpage_magictemplates">Magic Templates</string>
+    <string name="eo_frontpage_draft">Draft</string>
+    <string name="eo_frontpage_magictemplates_toast">Coming soon, stay tuned</string>
+    <string name="eo_frontpage_material_not_exist">material has been deleted, please select again</string>
+    <string name="eo_frontpage_auth_fail">Auth failed</string>
+    <string name="eo_cutsame_pick_tip_duration_invalid">The duration cannot be less than%s</string>
+    <string name="eo_cutsame_pick_relation_tips">Recommend the same materials in slots with the same color</string>
+    <string name="eo_cutsame_pick_tips">add %s pieces of material</string>
+    <string name="eo_cutsame_pick_tips_default">%1d piece of material has been selected %2d/%3d</string>
+    <string name="eo_cutsame_ptk_resource_loading">Downloading...</string>
+    <string name="auto_cutsame_album_next">Confirm</string>
+    <string name="cutsame_pick_select">Select</string>
+    <string name="eo_album_swipe_to_show_others">Swipe left or right to show others</string>
+    <string name="cutsame_compose_need_template_url">The composite page needs templateUrl</string>
+    <string name="eo_cutsame_dialog_confirm">Confirm</string>
+    <string name="eo_cutsame_dialog_cancel">Cancel</string>
+    <string name="eo_cutsame_replace_dialog_title">Replace material</string>
+    <string name="eo_cutsame_replace_dialog_subtitle">Also replace it into other segment in the same group?</string>
+    <string name="eo_cutsame_replace_dialog_confirm">Confirm</string>
+    <string name="eo_cutsame_replace_dialog_cancel">Ignore</string>
+</resources>

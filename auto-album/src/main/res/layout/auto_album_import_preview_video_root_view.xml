@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.bytedance.creativex.mediaimport.widget.gesture.ScaleGestureLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/gesture_layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <TextureView
+        android:id="@+id/video_texture"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+    <ImageView
+        android:id="@+id/video_play_pause_view"
+        android:layout_width="90dp"
+        android:layout_height="90dp"
+        android:layout_gravity="center"
+        android:scaleType="centerInside"
+        android:src="@drawable/auto_album_ic_play_pause"
+        android:visibility="gone"
+        tools:ignore="ContentDescription" />
+
+    <ImageView
+        android:id="@+id/iv_video_thumbnail"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <ImageView
+        android:id="@+id/iv_deleted"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:src="@drawable/tools_media_import_ic_video_delete"
+        android:visibility="gone"
+        tools:visibility="visible" />
+
+    <com.ss.android.ugc.tools.view.widget.state.LoadingView
+        android:id="@+id/video_loading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:visibility="gone" />
+
+</com.bytedance.creativex.mediaimport.widget.gesture.ScaleGestureLayout>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    tools:background="@android:color/black"
+    android:orientation="vertical">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="@dimen/auto_recorder_item_width"
+        android:layout_height="@dimen/auto_recorder_item_height">
+
+        <View
+            android:layout_width="@dimen/auto_recorder_item_bg_width"
+            android:layout_height="@dimen/auto_recorder_item_bg_height"
+            android:background="@drawable/auto_recorder_item_bg"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/auto_record_sticker_item_view_stroke_view"
+            style="@style/EffectOne.Recorder_SelectedStrokeView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="0dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+
+        <com.google.android.material.imageview.ShapeableImageView
+            android:id="@+id/eo_recorder_beauty_item_image"
+            android:layout_width="@dimen/auto_recorder_item_image_size"
+            android:layout_height="@dimen/auto_recorder_item_image_size"
+            android:layout_gravity="center_horizontal"
+            android:scaleType="centerInside"
+            app:layout_constraintBottom_toTopOf="@+id/eo_recorder_beauty_item_intensity"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_chainStyle="packed"
+            tools:src="@android:color/white"
+            app:strokeColor="@null" />
+
+        <TextView
+            android:id="@+id/eo_recorder_beauty_item_intensity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="6dp"
+            android:ellipsize="end"
+            android:gravity="center|top"
+            android:maxLines="1"
+            tools:text="123456"
+            android:textColor="#99EEEEEE"
+            android:textSize="11dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/eo_recorder_beauty_item_image" />
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <TextView
+        android:id="@+id/eo_recorder_beauty_item_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:ellipsize="end"
+        android:gravity="center|top"
+        android:maxLines="2"
+        tools:text="磨皮"
+        android:textColor="#EEEEEE"
+        android:textSize="11dp" />
+
+    <com.google.android.material.imageview.ShapeableImageView
+        android:id="@+id/eo_recorder_beauty_item_point"
+        android:layout_width="3dp"
+        android:layout_height="3dp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp"
+        app:shapeAppearance="@style/EffectOne.FilterRoundedStyle" />
+
+</LinearLayout>

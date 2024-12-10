@@ -1,0 +1,15 @@
+*.iml
+.gradle
+.idea
+.DS_Store
+build
+captures
+.externalNativeBuild
+.cxx
+local.properties
+temp
+.remoteX/
+start.sh
+switch.local.yml
+mbox.local.aarCache.lock.json
+mbox.local.aarCacheInfo.lock.json

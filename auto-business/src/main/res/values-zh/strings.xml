@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="eo_frontpage_videoeditor">基础剪辑</string>
+    <string name="eo_frontpage_magictemplates">剪同款</string>
+    <string name="eo_frontpage_draft">草稿箱</string>
+    <string name="eo_frontpage_magictemplates_toast">暂不支持，敬请期待</string>
+    <string name="eo_frontpage_material_not_exist">该素材已被删除，请重新选择</string>
+    <string name="eo_frontpage_auth_fail">鉴权失败</string>
+</resources>

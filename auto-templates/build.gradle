@@ -1,0 +1,100 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+    id 'kotlin-parcelize'
+}
+
+def canPublish = rootProject.ext.properties.containsKey("publish_script_path")
+if (canPublish) {
+    def publishFile = rootProject.file(rootProject.ext.publish_script_path)
+    if (publishFile.exists()) {
+        apply from: publishFile
+    }
+}
+
+android {
+    namespace 'com.volcengine.effectone.auto.templates'
+    compileSdk rootProject.ext.compileSdk
+
+    defaultConfig {
+        vectorDrawables.useSupportLibrary = true
+        minSdk rootProject.ext.minSdk
+        targetSdk rootProject.ext.targetSdk
+        consumerProguardFiles "consumer-rules.pro"
+        versionCode eoVersionCode()
+        versionName eoVersionName()
+    }
+
+    def assetsDirs = new ArrayList()
+    assetsDirs.add("src/main/assets")
+    if (sourceType() != "online") {
+        assetsDirs.add("src/main/cutsame")
+    }
+
+    sourceSets {
+        main {
+            assets.srcDirs = assetsDirs
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility rootProject.ext.java_version
+        targetCompatibility rootProject.ext.java_version
+    }
+
+    kotlinOptions {
+        jvmTarget = rootProject.ext.kotlin_jvmTarget
+    }
+}
+
+dependencies {
+    def libs = rootProject.ext.libs
+    api project(":auto-common")
+    implementation libs["lifecycle-viewmodel"]
+    implementation libs["glide"]
+    implementation libs["vesdk"]
+    implementation libs["CK-CutSameIF"]
+    implementation libs["cutsameconsumer"]
+    implementation libs["nleeditor"]
+    implementation libs["logkit"]
+    implementation "com.airbnb.android:lottie:5.2.0"
+    implementation "com.volcengine.effectone:editor-ui:${EO_SDK_VERSION}"
+    implementation project(":auto-album")
+    implementation "com.volcengine.effectone:base-utils:${EO_SDK_VERSION}"
+
+    implementation "com.squareup.retrofit2:retrofit:2.9.0"
+    implementation "com.squareup.retrofit2:converter-gson:2.9.0"
+    implementation "com.google.android.exoplayer:exoplayer-core:2.19.1"
+    implementation "com.danikula:videocache:2.7.1"
+}
+
+def eoVersionCode() {
+    if (project.hasProperty("VERSION_CODE")) {
+        return Integer.parseInt(VERSION_CODE)
+    } else {
+        "100000"
+    }
+}
+
+def eoVersionName() {
+    if (project.hasProperty("VERSION_NAME")) {
+        return VERSION_NAME
+    } else {
+        "NO_VERSION_NAME"
+    }
+}
+
+def sourceType() {
+    if (project.hasProperty("CUTSAME_SOURCE_TYPE")) {
+        return CUTSAME_SOURCE_TYPE
+    } else {
+        return ""
+    }
+}

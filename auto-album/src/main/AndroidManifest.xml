@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:maxAspectRatio="2.4"
+        tools:ignore="UnusedAttribute">
+
+        <activity
+            android:name="com.volcengine.effectone.auto.album.AutoAlbumActivity"
+            android:exported="true"
+            android:screenOrientation="landscape"
+            android:theme="@style/AutoAlbumActivityStyle">
+            <intent-filter>
+                <action android:name="auto_album_page_action" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

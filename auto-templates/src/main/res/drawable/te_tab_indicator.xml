@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <shape>
+            <gradient
+                android:angle="0"
+                android:endColor="@color/tab_indicator_end_color"
+                android:startColor="@color/tab_indicator_start_color"
+                android:type="linear" />
+            <corners android:radius="3dp" />
+            <size
+                android:width="29dp"
+                android:height="3dp" />
+        </shape>
+    </item>
+</layer-list>

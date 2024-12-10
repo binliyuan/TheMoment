@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <application
+        android:maxAspectRatio="2.4"
+        tools:ignore="UnusedAttribute">
+        <activity
+            android:name=".AutoMomentHomeActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name=".AutoMomentListActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name=".AutoMomentConfigureActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="auto_moment_configure_page" />
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".hl.AutoMaterialRecognizeActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+
+        <activity
+            android:name=".hl.play.AutoMaterialHighLightPlayActivity"
+            android:exported="false"
+            android:screenOrientation="landscape" />
+    </application>
+
+</manifest>

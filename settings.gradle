@@ -1,0 +1,54 @@
+if (hasProperty("AUTO")) {
+    pluginManagement {
+        repositories {
+            google()
+            mavenCentral()
+            gradlePluginPortal()
+        }
+    }
+
+    dependencyResolutionManagement {
+        repositoriesMode.set(RepositoriesMode.FAIL_ON_PROJECT_REPOS)
+        repositories {
+            google()
+            mavenCentral()
+            maven {
+                url 'https://artifact.bytedance.com/repository/Volcengine/'
+            }
+            maven {
+                url "https://artifact.bytedance.com/repository/thrall_ck/"
+                credentials {
+                    username = MAVEN_USER_NAME
+                    password = MAVEN_PASS_WORD
+                }
+                authentication {
+                    digest(BasicAuthentication)
+                }
+            }
+        }
+    }
+}
+
+include ':auto'
+project(":auto").projectDir = file("auto")
+
+include ':auto-business'
+project(":auto-business").projectDir = file("auto-business")
+
+include ':auto-recorder'
+project(":auto-recorder").projectDir = file("auto-recorder")
+
+include ':auto-templates'
+project(":auto-templates").projectDir = file("auto-templates")
+
+include ':auto-common'
+project(":auto-common").projectDir = file("auto-common")
+
+include ':auto-album'
+project(":auto-album").projectDir = file("auto-album")
+
+include ':auto-moment'
+project(":auto-moment").projectDir = file("auto-moment")
+
+include ':auto-algorithm'
+project(":auto-algorithm").projectDir = file("auto-algorithm")

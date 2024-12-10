@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="color_EEEEEE">#EEEEEE</color>
+    <color name="color_9FFFFFF">#1AFFFFFF</color>
+    <color name="color_10FFFFFF">#17FFFFFF</color>
+    <color name="color_FF284B">#FF284B</color>
+    <color name="color_FD2DDB">#FD2DDB</color>
+    <color name="color_gradient_start" >@color/color_FF284B</color>
+    <color name="color_gradient_end">@color/color_FD2DDB</color>
+    <color name="color_60EEEEEE">#99EEEEEE</color>
+    <color name="color_232530">#232530</color>
+    <color name="color_70000000">#B3000000</color>
+    <color name="color_80EEEEEE">#CCEEEEEE</color>
+    <color name="color_222222">#222222</color>
+</resources>

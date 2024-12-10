@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <SurfaceView
+        android:id="@+id/surface_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <com.volcengine.effectone.auto.templates.widget.clip.ClipSizeView
+        android:id="@+id/clip_size_View"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        app:layout_constraintBottom_toBottomOf="@id/surface_view"
+        app:layout_constraintLeft_toLeftOf="@id/surface_view"
+        app:layout_constraintRight_toRightOf="@id/surface_view"
+        app:layout_constraintTop_toTopOf="@id/surface_view" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/title_layout"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/iv_back"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="32dp"
+            android:src="@drawable/icon_back_arrow"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_title"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="76dp"
+            android:layout_marginEnd="76dp"
+            android:gravity="center"
+            android:maxLines="1"
+            android:textColor="@color/te_page_title_text_color"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="@id/iv_back"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@+id/iv_back"
+            tools:text="标题" />
+
+        <Button
+            android:id="@+id/btn_title_confirm"
+            android:layout_width="135dp"
+            android:layout_height="40dp"
+            android:layout_marginEnd="30dp"
+            android:background="@drawable/te_btn_confirm_bg"
+            android:gravity="center"
+            android:text="确认"
+            android:textColor="@color/color_EEE"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/ly_bottom_container"
+        android:layout_width="match_parent"
+        android:layout_height="138dp"
+        app:layout_constraintBottom_toBottomOf="parent">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="135dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/te_btn_confirm_bg"
+            android:gravity="center"
+            android:text="确认"
+            android:textColor="@color/color_EEE"
+            android:textSize="18sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="135dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/te_btn_cancel_bg"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/color_EEE"
+            android:textSize="18sp"
+            app:layout_constraintLeft_toLeftOf="@id/btn_confirm"
+            app:layout_constraintTop_toBottomOf="@+id/btn_confirm" />
+
+        <com.volcengine.effectone.auto.templates.widget.clip.videoRange.VideoClipRangeView
+            android:id="@+id/video_clip_range_view"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="40dp"
+            android:layout_marginEnd="60dp"
+            app:layout_constraintBottom_toBottomOf="@id/btn_cancel"
+            app:layout_constraintLeft_toRightOf="@+id/btn_confirm"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="@id/btn_confirm" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

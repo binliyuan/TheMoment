@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ck_moment_configure_moment_name"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/ck_moment_configure_line_height"
+    android:orientation="horizontal"
+    android:padding="8dp"
+    android:layout_marginBottom="0dp"
+    android:gravity="center_vertical"
+    app:layout_constraintTop_toTopOf="parent"
+    >
+
+    <TextView
+        android:id="@+id/ck_moment_label_tag_label"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:text="@string/ck_one_moment_configure_tag"
+        android:textColor="@color/normal_widget_text"
+        android:layout_marginEnd="8dp"
+        android:textSize="@dimen/ck_moment_configure_font_size_view_text"
+        />
+
+    <EditText
+        android:id="@+id/ck_moment_configure_tag_view"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:gravity="center_vertical"
+        android:layout_gravity="center_vertical"
+        android:paddingHorizontal="6dp"
+        android:layout_weight="2"
+        android:autofillHints=""
+        android:focusable="false"
+        android:background="@drawable/auto_moment_configure_widget_rounded_background"
+        android:textColor="@color/normal_widget_text"
+        android:textColorHint="@color/normal_widget_text"
+        android:textSize="@dimen/ck_moment_configure_font_size_view_text"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:inputType="text"
+        />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/ck_one_moment_configure_label_item_confidence"
+        android:textColor="@color/normal_widget_text"
+        android:gravity="center"
+        android:layout_marginHorizontal="6dp"
+        android:textSize="@dimen/ck_moment_configure_font_size_view_text"
+        />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="horizontal"
+        android:gravity="center_vertical">
+
+        <Button
+            android:id="@+id/ck_moment_configure_confidence_button_decrement"
+            android:layout_width="@dimen/ck_moment_configure_small_button_width"
+            android:padding="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/auto_moment_configure_widget_rounded_background"
+            android:textColor="@color/normal_widget_text"
+            android:textSize="@dimen/ck_moment_configure_font_size_view_text"
+            android:text="-"
+            />
+
+        <TextView
+            android:id="@+id/ck_moment_configure_confidence"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:paddingHorizontal="10dp"
+            android:textColor="@color/normal_widget_text"
+            android:textSize="@dimen/ck_moment_configure_font_size_view_text"
+            android:text="0"
+            android:gravity="center_vertical"/>
+
+        <Button
+            android:id="@+id/ck_moment_configure_confidence_button_increment"
+            android:layout_width="@dimen/ck_moment_configure_small_button_width"
+            android:padding="0dp"
+            android:background="@drawable/auto_moment_configure_widget_rounded_background"
+            android:textColor="@color/normal_widget_text"
+            android:textSize="@dimen/ck_moment_configure_font_size_view_text"
+            android:layout_height="match_parent"
+            android:text="+" />
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/ck_one_moment_configure_label_item_priority"
+        android:textColor="@color/normal_widget_text"
+        android:gravity="center"
+        android:layout_marginHorizontal="6dp"
+        android:textSize="@dimen/ck_moment_configure_font_size_view_text"
+        />
+
+    <FrameLayout
+        android:layout_width="0dp"
+        android:layout_weight="1"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        >
+        <Spinner
+            android:id="@+id/ck_moment_configure_tag_priority"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/auto_moment_configure_widget_rounded_background"
+            android:popupBackground="@drawable/auto_moment_configure_widget_rounded_background"
+            />
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="end|center_vertical"
+            android:src="@drawable/auto_moment_configure_spinner_angle"
+            android:padding="10dp"
+            />
+    </FrameLayout>
+
+    <TextView
+        android:id="@+id/ck_moment_configure_item_delete"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:text="@string/ck_one_moment_configure_label_item_delete"
+        android:textColor="@color/normal_widget_text"
+        android:gravity="center"
+        android:layout_marginHorizontal="6dp"
+        android:textSize="@dimen/ck_moment_configure_font_size_view_text"
+        />
+
+</LinearLayout>

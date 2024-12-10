@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<level-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:width="3dp"
+        android:height="166dp"
+        android:bottom="10dp"
+        android:top="10dp">
+        <shape>
+            <solid android:color="@color/color_353848" />
+            <corners android:radius="3dp" />
+        </shape>
+    </item>
+</level-list>

@@ -1,0 +1,32 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/change_album_layout"
+    android:layout_width="wrap_content"
+    android:layout_height="40dp"
+    android:layout_marginStart="40dp"
+    android:background="@drawable/auto_folder_entrance_bg"
+    android:gravity="center_vertical"
+    android:paddingStart="28dp"
+    android:paddingEnd="28dp">
+
+    <TextView
+        android:id="@+id/tv_folder_entrance"
+        style="@style/tools_font_size_32"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:ellipsize="end"
+        android:gravity="center"
+        android:maxWidth="150dp"
+        android:maxLines="1"
+        android:text="@string/eo_album_localAlbum"
+        android:textColor="@color/ConstTextInverse1"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/iv_entrance_arrow"
+        android:layout_width="16dp"
+        android:layout_height="16dp"
+        android:layout_marginStart="8dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/auto_album_import_folder_arrow_icon" />
+</LinearLayout>

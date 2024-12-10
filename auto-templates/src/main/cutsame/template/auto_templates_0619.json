@@ -1,0 +1,723 @@
+{
+  "data": {
+    "template_list": [
+      {
+        "cover": {
+          "height": 720,
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1717146723/huiyijiaojuanchezai0531_7362845321540124707/cover.png",
+          "width": 1280
+        },
+        "fragments": [
+          {
+            "duration": 1733
+          },
+          {
+            "duration": 1106
+          },
+          {
+            "duration": 1649
+          },
+          {
+            "duration": 1557
+          },
+          {
+            "duration": 1659
+          },
+          {
+            "duration": 1725
+          },
+          {
+            "duration": 671
+          },
+          {
+            "duration": 1320
+          },
+          {
+            "duration": 1461
+          }
+        ],
+        "template_url": "file://huiyijiaojuanchezai0531_7362845321540124707/template.zip",
+        "title": "回忆胶卷-车载0531",
+        "video_info": {
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1717146723/huiyijiaojuanchezai0531_7362845321540124707/huiyijiaojuanchezai0531_7362845321540124707.mp4"
+        },
+        "template_tags": "风格大片",
+        "c3_info": "雪景 雾 池塘 山溪 花 梯田 园林 小岛 农田 草地 森林 花海 郁金香 向日葵 湖 海 汽车 车流"
+      },
+      {
+        "cover": {
+          "height": 405,
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1717146723/weilaimanyouchezai0531_7375058069070954559/cover.png",
+          "width": 720
+        },
+        "fragments": [
+          {
+            "duration": 4525
+          },
+          {
+            "duration": 3263
+          },
+          {
+            "duration": 5427
+          },
+          {
+            "duration": 3206
+          },
+          {
+            "duration": 4217
+          },
+          {
+            "duration": 4526
+          },
+          {
+            "duration": 4032
+          }
+        ],
+        "template_url": "file://weilaimanyouchezai0531_7375058069070954559/template.zip",
+        "title": "蔚来漫游-车载0531",
+        "video_info": {
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1717146723/weilaimanyouchezai0531_7375058069070954559/weilaimanyouchezai0531_7375058069070954559.mp4"
+        },
+        "template_tags": "城市通勤",
+        "c3_info": "商业街 商场 街道 汽车 车流 晚会 演唱会 摩天轮 摩托车 自行车 高铁 吉他 火车 飞机 马路 骑行"
+      },
+      {
+        "cover": {
+          "height": 404,
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1717146723/lvhangrijichezai0108_7316742830847737890/cover.png",
+          "width": 720
+        },
+        "fragments": [
+          {
+            "duration": 2132
+          },
+          {
+            "duration": 2032
+          },
+          {
+            "duration": 2099
+          },
+          {
+            "duration": 1866
+          },
+          {
+            "duration": 2099
+          },
+          {
+            "duration": 1932
+          },
+          {
+            "duration": 1832
+          },
+          {
+            "duration": 3766
+          }
+        ],
+        "template_url": "file://lvhangrijichezai0108_7316742830847737890/template.zip",
+        "title": "旅行日记-车载0108",
+        "video_info": {
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1717146723/lvhangrijichezai0108_7316742830847737890/lvhangrijichezai0108_7316742830847737890.mp4"
+        },
+        "template_tags": "出行计划",
+        "c3_info": "火烧云 星空（银河/星轨/极光） 桥 沙滩 礁石 闪电 露营 彩虹 云 蓝天白云 乌云 月亮 夜景 烟花 船舶 栈道 火 霓虹灯 雨天 树 单人 双人 多人 老人 儿童"
+      },
+      {
+        "cover": {
+          "height": 405,
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1717146723/chuyoujihuachezai0531_7362845321540239395/cover.png",
+          "width": 720
+        },
+        "fragments": [
+          {
+            "duration": 3571
+          },
+          {
+            "duration": 2684
+          },
+          {
+            "duration": 2650
+          },
+          {
+            "duration": 2677
+          },
+          {
+            "duration": 2677
+          },
+          {
+            "duration": 2657
+          }
+        ],
+        "template_url": "file://chuyoujihuachezai0531_7362845321540239395/template.zip",
+        "title": "出游计划-车载0531",
+        "video_info": {
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1717146723/chuyoujihuachezai0531_7362845321540239395/chuyoujihuachezai0531_7362845321540239395.mp4"
+        },
+        "template_tags": "出行计划",
+        "c3_info": "火烧云 星空（银河/星轨/极光） 桥 沙滩 礁石 闪电 露营 彩虹 云 蓝天白云 乌云 月亮 夜景 烟花 船舶 栈道 火 霓虹灯 雨天 树 单人 双人 多人 老人 儿童"
+      },
+      {
+        "cover": {
+          "height": 405,
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1717146723/NIObofangqiweilaizhishengchezai0531_7374693952437518375/cover.png",
+          "width": 720
+        },
+        "fragments": [
+          {
+            "duration": 3549
+          },
+          {
+            "duration": 3250
+          },
+          {
+            "duration": 3507
+          },
+          {
+            "duration": 3273
+          },
+          {
+            "duration": 3401
+          },
+          {
+            "duration": 3073
+          },
+          {
+            "duration": 3476
+          },
+          {
+            "duration": 3696
+          }
+        ],
+        "template_url": "file://NIObofangqiweilaizhishengchezai0531_7374693952437518375/template.zip",
+        "title": "NIO播放器（蔚来之声）-车载0531",
+        "video_info": {
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1717146723/NIObofangqiweilaizhishengchezai0531_7374693952437518375/NIObofangqiweilaizhishengchezai0531_7374693952437518375.mp4"
+        },
+        "template_tags": "城市通勤",
+        "c3_info": "商业街 商场 街道 汽车 车流 晚会 演唱会 摩天轮 摩托车 自行车 高铁 吉他 火车 飞机 马路 骑行"
+      },
+      {
+        "cover": {
+          "height": 720,
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1717146723/chufachezai0531_7374693952437387303/cover.png",
+          "width": 1280
+        },
+        "fragments": [
+          {
+            "duration": 1817
+          },
+          {
+            "duration": 2613
+          },
+          {
+            "duration": 2447
+          },
+          {
+            "duration": 2528
+          },
+          {
+            "duration": 2496
+          },
+          {
+            "duration": 2496
+          },
+          {
+            "duration": 2640
+          },
+          {
+            "duration": 3225
+          }
+        ],
+        "template_url": "file://chufachezai0531_7374693952437387303/template.zip",
+        "title": "出发-车载0531",
+        "video_info": {
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1717146723/chufachezai0531_7374693952437387303/chufachezai0531_7374693952437387303.mp4"
+        },
+        "template_tags": "出行计划",
+        "c3_info": "火烧云 星空（银河/星轨/极光） 桥 沙滩 礁石 闪电 露营 彩虹 云 蓝天白云 乌云 月亮 夜景 烟花 船舶 栈道 火 霓虹灯 雨天 树 单人 双人 多人 老人 儿童"
+      },
+      {
+        "cover": {
+          "height": 405,
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1717146723/weilaijumuchezai0531_7375048680318386186/cover.png",
+          "width": 720
+        },
+        "fragments": [
+          {
+            "duration": 1463
+          },
+          {
+            "duration": 3035
+          },
+          {
+            "duration": 3026
+          },
+          {
+            "duration": 3085
+          },
+          {
+            "duration": 3058
+          },
+          {
+            "duration": 3117
+          },
+          {
+            "duration": 3085
+          },
+          {
+            "duration": 3017
+          },
+          {
+            "duration": 3026
+          }
+        ],
+        "template_url": "file://weilaijumuchezai0531_7375048680318386186/template.zip",
+        "title": "蔚来巨幕-车载0531",
+        "video_info": {
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1717146723/weilaijumuchezai0531_7375048680318386186/weilaijumuchezai0531_7375048680318386186.mp4"
+        },
+        "template_tags": "风格大片",
+        "c3_info": "雪景 雾 池塘 山溪 花 梯田 园林 小岛 农田 草地 森林 花海 郁金香 向日葵 湖 海 汽车 车流"
+      },
+      {
+        "cover": {
+          "height": 405,
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1717146723/minyaogecichezai0531_7375058069071020095/cover.png",
+          "width": 720
+        },
+        "fragments": [
+          {
+            "duration": 3325
+          },
+          {
+            "duration": 3887
+          },
+          {
+            "duration": 2915
+          },
+          {
+            "duration": 2559
+          },
+          {
+            "duration": 2428
+          },
+          {
+            "duration": 4613
+          },
+          {
+            "duration": 2277
+          },
+          {
+            "duration": 2582
+          },
+          {
+            "duration": 2638
+          }
+        ],
+        "template_url": "file://minyaogecichezai0531_7375058069071020095/template.zip",
+        "title": "民谣歌词-车载0531",
+        "video_info": {
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1717146723/minyaogecichezai0531_7375058069071020095/minyaogecichezai0531_7375058069071020095.mp4"
+        },
+        "template_tags": "出行计划",
+        "c3_info": "火烧云 星空（银河/星轨/极光） 桥 沙滩 礁石 闪电 露营 彩虹 云 蓝天白云 乌云 月亮 夜景 烟花 船舶 栈道 火 霓虹灯 雨天 树 单人 双人 多人 老人 儿童"
+      },
+      {
+        "cover": {
+          "height": 720,
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1717146723/fenweiganbofangqichezai0531_7375058069071315007/cover.png",
+          "width": 1280
+        },
+        "fragments": [
+          {
+            "duration": 5467
+          },
+          {
+            "duration": 5467
+          },
+          {
+            "duration": 2599
+          },
+          {
+            "duration": 2599
+          },
+          {
+            "duration": 2733
+          },
+          {
+            "duration": 2733
+          },
+          {
+            "duration": 2665
+          },
+          {
+            "duration": 2665
+          },
+          {
+            "duration": 2700
+          },
+          {
+            "duration": 2700
+          },
+          {
+            "duration": 2668
+          },
+          {
+            "duration": 2668
+          },
+          {
+            "duration": 2532
+          },
+          {
+            "duration": 2532
+          }
+        ],
+        "template_url": "file://fenweiganbofangqichezai0531_7375058069071315007/template.zip",
+        "title": "氛围感播放器-车载0531",
+        "video_info": {
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1717146723/fenweiganbofangqichezai0531_7375058069071315007/fenweiganbofangqichezai0531_7375058069071315007.mp4"
+        },
+        "template_tags": "城市通勤",
+        "c3_info": "商业街 商场 街道 汽车 车流 晚会 演唱会 摩天轮 摩托车 自行车 高铁 吉他 火车 飞机 马路 骑行"
+      },
+      {
+        "cover": {
+          "height": 720,
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1717146723/chengshimanyouchezai0531_7375059999405375515/cover.png",
+          "width": 1278
+        },
+        "fragments": [
+          {
+            "duration": 2670
+          },
+          {
+            "duration": 2066
+          },
+          {
+            "duration": 1599
+          },
+          {
+            "duration": 3151
+          },
+          {
+            "duration": 647
+          },
+          {
+            "duration": 3932
+          }
+        ],
+        "template_url": "file://chengshimanyouchezai0531_7375059999405375515/template.zip",
+        "title": "城市漫游-车载0531",
+        "video_info": {
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1717146723/chengshimanyouchezai0531_7375059999405375515/chengshimanyouchezai0531_7375059999405375515.mp4"
+        },
+        "template_tags": "城市通勤",
+        "c3_info": "商业街 商场 街道 汽车 车流 晚会 演唱会 摩天轮 摩托车 自行车 高铁 吉他 火车 飞机 马路 骑行"
+      },
+      {
+        "cover": {
+          "height": 405,
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1717146723/lixiangzhiluchezai0531_7375059845587681291/cover.png",
+          "width": 720
+        },
+        "fragments": [
+          {
+            "duration": 3881
+          },
+          {
+            "duration": 3130
+          },
+          {
+            "duration": 3151
+          },
+          {
+            "duration": 3417
+          },
+          {
+            "duration": 4203
+          },
+          {
+            "duration": 3497
+          },
+          {
+            "duration": 6196
+          }
+        ],
+        "template_url": "file://lixiangzhiluchezai0531_7375059845587681291/template.zip",
+        "title": "理想之路-车载0531",
+        "video_info": {
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1717146723/lixiangzhiluchezai0531_7375059845587681291/lixiangzhiluchezai0531_7375059845587681291.mp4"
+        },
+        "template_tags": "出行计划",
+        "c3_info": "火烧云 星空（银河/星轨/极光） 桥 沙滩 礁石 闪电 露营 彩虹 云 蓝天白云 乌云 月亮 夜景 烟花 船舶 栈道 火 霓虹灯 雨天 树 单人 双人 多人 老人 儿童"
+      },
+      {
+        "cover": {
+          "height": 405,
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1717146723/jiashirenshengchezai0531_7375059845587746827/cover.png",
+          "width": 720
+        },
+        "fragments": [
+          {
+            "duration": 3659
+          },
+          {
+            "duration": 3321
+          },
+          {
+            "duration": 3806
+          },
+          {
+            "duration": 3848
+          },
+          {
+            "duration": 2917
+          },
+          {
+            "duration": 3633
+          },
+          {
+            "duration": 3509
+          },
+          {
+            "duration": 3655
+          }
+        ],
+        "template_url": "file://jiashirenshengchezai0531_7375059845587746827/template.zip",
+        "title": "驾驶人生-车载0531",
+        "video_info": {
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1717146723/jiashirenshengchezai0531_7375059845587746827/jiashirenshengchezai0531_7375059845587746827.mp4"
+        },
+        "template_tags": "风格大片",
+        "c3_info": "雪景 雾 池塘 山溪 花 梯田 园林 小岛 农田 草地 森林 花海 郁金香 向日葵 湖 海 汽车 车流"
+      },
+      {
+        "cover": {
+          "height": 720,
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1717146723/zhuanshuguangbochezai0531_7375059845587812363/cover.png",
+          "width": 1280
+        },
+        "fragments": [
+          {
+            "duration": 3556
+          },
+          {
+            "duration": 3537
+          },
+          {
+            "duration": 1802
+          },
+          {
+            "duration": 1782
+          },
+          {
+            "duration": 1756
+          },
+          {
+            "duration": 1822
+          },
+          {
+            "duration": 1791
+          },
+          {
+            "duration": 1753
+          },
+          {
+            "duration": 902
+          },
+          {
+            "duration": 3069
+          },
+          {
+            "duration": 3874
+          }
+        ],
+        "template_url": "file://zhuanshuguangbochezai0531_7375059845587812363/template.zip",
+        "title": "专属广播-车载0531",
+        "video_info": {
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1717146723/zhuanshuguangbochezai0531_7375059845587812363/zhuanshuguangbochezai0531_7375059845587812363.mp4"
+        },
+        "template_tags": "驾驶碎片",
+        "c3_info": "商业街 商场 街道 汽车 车流 晚会 演唱会 摩天轮 摩托车 自行车 高铁 吉他 火车 飞机 马路 骑行"
+      },
+      {
+        "cover": {
+          "height": 405,
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1717146723/lixiangxiangcechezai0531_7375058069071085631/cover.png",
+          "width": 720
+        },
+        "fragments": [
+          {
+            "duration": 4808
+          },
+          {
+            "duration": 4975
+          },
+          {
+            "duration": 5099
+          },
+          {
+            "duration": 5044
+          },
+          {
+            "duration": 3089
+          },
+          {
+            "duration": 2535
+          },
+          {
+            "duration": 3375
+          },
+          {
+            "duration": 2907
+          }
+        ],
+        "template_url": "file://lixiangxiangcechezai0531_7375058069071085631/template.zip",
+        "title": "理想相册-车载0531",
+        "video_info": {
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1717146723/lixiangxiangcechezai0531_7375058069071085631/lixiangxiangcechezai0531_7375058069071085631.mp4"
+        },
+        "template_tags": "风格大片",
+        "c3_info": "雪景 雾 池塘 山溪 花 梯田 园林 小岛 农田 草地 森林 花海 郁金香 向日葵 湖 海 汽车 车流"
+      },
+      {
+        "cover": {
+          "height": 405,
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1717146723/weilailvtuchezai0531_7375059845587877899/cover.png",
+          "width": 720
+        },
+        "fragments": [
+          {
+            "duration": 4058
+          },
+          {
+            "duration": 3042
+          },
+          {
+            "duration": 3058
+          },
+          {
+            "duration": 2933
+          },
+          {
+            "duration": 2823
+          },
+          {
+            "duration": 3015
+          },
+          {
+            "duration": 2996
+          },
+          {
+            "duration": 5230
+          }
+        ],
+        "template_url": "file://weilailvtuchezai0531_7375059845587877899/template.zip",
+        "title": "蔚来旅途-车载0531",
+        "video_info": {
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1717146723/weilailvtuchezai0531_7375059845587877899/weilailvtuchezai0531_7375059845587877899.mp4"
+        },
+        "template_tags": "风格大片",
+        "c3_info": "雪景 雾 池塘 山溪 花 梯田 园林 小岛 农田 草地 森林 花海 郁金香 向日葵 湖 海 汽车 车流"
+      },
+      {
+        "cover": {
+          "height": 405,
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1716350747/1biaojisetongcaoweimobanceshi_7371651794906480667/cover.png",
+          "width": 720
+        },
+        "fragments": [
+          {
+            "duration": 2483
+          },
+          {
+            "duration": 3266
+          }
+        ],
+        "template_url": "file://1biaojisetongcaoweimobanceshi_7371651794906480667/template.zip",
+        "title": "1标记色同槽位模板测试",
+        "video_info": {
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1716350747/1biaojisetongcaoweimobanceshi_7371651794906480667/1biaojisetongcaoweimobanceshi_7371651794906480667.mp4"
+        },
+        "template_tags": "测试模板"
+      },
+      {
+        "cover": {
+          "height": 405,
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1716350747/wenziceshi_7371650355413647411/cover.png",
+          "width": 720
+        },
+        "fragments": [
+          {
+            "duration": 2483
+          },
+          {
+            "duration": 3266
+          }
+        ],
+        "template_url": "file://wenziceshi_7371650355413647411/template.zip",
+        "title": "文字测试③",
+        "video_info": {
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1716350747/wenziceshi_7371650355413647411/wenziceshi_7371650355413647411.mp4"
+        },
+        "template_tags": "测试模板"
+      },
+      {
+        "cover": {
+          "height": 405,
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1716350747/wenziceshi_7371651397047844915/cover.png",
+          "width": 720
+        },
+        "fragments": [
+          {
+            "duration": 5006
+          }
+        ],
+        "template_url": "file://wenziceshi_7371651397047844915/template.zip",
+        "title": "文字测试④",
+        "video_info": {
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1716350747/wenziceshi_7371651397047844915/wenziceshi_7371651397047844915.mp4"
+        },
+        "template_tags": "测试模板"
+      },
+      {
+        "cover": {
+          "height": 405,
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1716350747/wenziceshifuben_7371648938703552549/cover.png",
+          "width": 720
+        },
+        "fragments": [
+          {
+            "duration": 5039
+          }
+        ],
+        "template_url": "file://wenziceshifuben_7371648938703552549/template.zip",
+        "title": "文字测试②副本",
+        "video_info": {
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1716350747/wenziceshifuben_7371648938703552549/wenziceshifuben_7371648938703552549.mp4"
+        },
+        "template_tags": "测试模板"
+      },
+      {
+        "cover": {
+          "height": 405,
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1716350747/wenziceshifubenchezai0522_7371650355413581875/cover.png",
+          "width": 720
+        },
+        "fragments": [
+          {
+            "duration": 8034
+          },
+          {
+            "duration": 6198
+          }
+        ],
+        "template_url": "file://wenziceshifubenchezai0522_7371650355413581875/template.zip",
+        "title": "文字测试副本-车载0522",
+        "video_info": {
+          "url": "http://lf3-ck.bytetos.com/obj/template-bucket/1716350747/wenziceshifubenchezai0522_7371650355413581875/wenziceshifubenchezai0522_7371650355413581875.mp4"
+        },
+        "template_tags": "测试模板"
+      }
+    ]
+  }
+}

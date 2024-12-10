@@ -1,0 +1,117 @@
+plugins {
+    id 'com.android.application'
+    id 'org.jetbrains.kotlin.android'
+}
+
+def innerBuildFile = new File(rootDir, "internal/app_config.gradle")
+if (innerBuildFile.exists()) {
+    apply from: innerBuildFile
+}
+
+android {
+    namespace 'com.volcengine.effectone.auto'
+
+    ndkVersion rootProject.ext.ndkVersion
+    compileSdk rootProject.ext.compileSdk
+
+    defaultConfig {
+        vectorDrawables.useSupportLibrary = true
+        applicationId "com.volcengine.effectone.auto"
+        minSdk rootProject.ext.minSdk
+        targetSdk rootProject.ext.targetSdk
+        versionCode eoVersionCode()
+        versionName eoVersionName()
+//        multiDexEnabled true
+        ndk {
+            //noinspection ChromeOsAbiSupport
+//            abiFilters "arm64-v8a"
+            abiFilters "armeabi-v7a", "arm64-v8a", "x86", "x86_64"
+        }
+    }
+
+    signingConfigs {
+        debug {
+            storeFile file("keystore.jks")
+            storePassword "123456"
+            keyAlias "EffectOne"
+            keyPassword "123456"
+        }
+        release {
+            storeFile file("keystore.jks")
+            storePassword "123456"
+            keyAlias "EffectOne"
+            keyPassword "123456"
+        }
+    }
+
+    buildTypes {
+        debug {
+            minifyEnabled false
+            signingConfig signingConfigs.debug
+        }
+        release {
+            minifyEnabled true
+            shrinkResources true
+            signingConfig signingConfigs.release
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility rootProject.ext.java_version
+        targetCompatibility rootProject.ext.java_version
+    }
+
+    kotlinOptions {
+        jvmTarget = rootProject.ext.kotlin_jvmTarget
+    }
+
+    packagingOptions {
+        jniLibs {
+            useLegacyPackaging = true
+        }
+        pickFirst 'lib/arm64-v8a/libc++_shared.so'
+        pickFirst 'lib/armeabi-v7a/libc++_shared.so'
+    }
+
+    applicationVariants.configureEach { variant ->
+        variant.outputs.configureEach {
+            outputFileName = getApkName(variant.buildType.name)
+        }
+    }
+}
+
+def getApkName(String type) {
+    def commitLength = 8
+    def appName = "TheMoment"
+    if (project.hasProperty("COMMIT_ID") && !COMMIT_ID.isEmpty()) {
+        if (COMMIT_ID.length() > commitLength) {
+            def short_commit_id = COMMIT_ID.substring(0, commitLength)
+            return "${appName}-${type}-${short_commit_id}.apk"
+        } else {
+            return "${appName}-${type}-${COMMIT_ID}.apk"
+        }
+    } else {
+        return "${appName}-${type}.apk"
+    }
+}
+
+dependencies {
+    implementation project(":auto-business")
+}
+
+def eoVersionCode() {
+    if (project.hasProperty("VERSION_CODE")) {
+        return Integer.parseInt(VERSION_CODE)
+    } else {
+        "100000"
+    }
+}
+
+def eoVersionName() {
+    if (project.hasProperty("VERSION_NAME")) {
+        return VERSION_NAME
+    } else {
+        "NO_VERSION_NAME"
+    }
+}

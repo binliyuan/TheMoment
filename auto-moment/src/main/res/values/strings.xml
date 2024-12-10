@@ -1,0 +1,27 @@
+<resources>
+    <string name="ck_one_home_title_timeStory">Time Story</string>
+    <string name="ck_one_home_button_configure_moment">Configure Moment</string>
+    <string name="ck_one_home_button_start_story">Start Time Story</string>
+    <string name="ck_one_moment_configure_name">Moment Name</string>
+    <string name="ck_one_moment_configure_related_template">Related Template</string>
+    <string name="ck_one_moment_configure_time">Select Time</string>
+    <string name="ck_one_moment_configure_location">Select Location</string>
+    <string name="ck_one_moment_configure_tag">Tag</string>
+    <string name="ck_one_moment_configure_add_tag">Add Tag</string>
+    <string name="ck_one_moment_configure_title">Configure Theme</string>
+    <string name="ck_one_moment_configure_time_hint">Select Time</string>
+    <string name="ck_one_moment_configure_label_item_confidence">Confidence</string>
+    <string name="ck_one_moment_configure_label_item_priority">Priority</string>
+    <string name="ck_one_moment_configure_label_item_delete">Delete</string>
+    <string name="ck_one_moment_configure_confirm">Confirm</string>
+    <string name="ck_one_moment_configure_cancel">Cancel</string>
+    <string name="ck_one_moment_configure_reset">Reset</string>
+    <string name="ck_one_moment_configure_save">Save</string>
+    <string name="ck_one_moment_configure_back">Back</string>
+    <string name="ck_one_moment_configure_time_start_hint">Select Start Time</string>
+    <string name="ck_one_moment_configure_time_end_hint">Select End Time</string>
+    <string name="ck_one_moment_configure_toast_save_moment_config">Moment config saved!</string>
+    <string name="ck_one_moment_configure_toast_time_period_error">Time period is illegal!</string>
+    <string name="auto_material_recognize_high_light_duration_info">high light duration: %1dms-%2dms</string>
+    <string name="auto_material_recognize_high_light_keywords">" keywords:%s"</string>
+</resources>

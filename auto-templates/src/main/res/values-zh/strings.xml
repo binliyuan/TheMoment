@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="eo_frontpage_videoeditor">基础剪辑</string>
+    <string name="eo_frontpage_magictemplates">剪同款</string>
+    <string name="eo_frontpage_draft">草稿箱</string>
+    <string name="eo_frontpage_magictemplates_toast">暂不支持，敬请期待</string>
+    <string name="eo_frontpage_material_not_exist">该素材已被删除，请重新选择</string>
+    <string name="eo_frontpage_auth_fail">鉴权失败</string>
+    <string name="eo_cutsame_pick_tip_duration_invalid">视频不能小于%s</string>
+    <string name="eo_cutsame_pick_relation_tips">相同标记色片段，建议使用相同素材</string>
+    <string name="eo_cutsame_pick_tips_default">添加 %d 段素材</string>
+    <string name="eo_cutsame_pick_tips">已选择 %1d 段素材 %2d/%3d</string>
+    <string name="eo_cutsame_ptk_resource_loading">模版下载中...</string>
+    <string name="auto_cutsame_album_next">确定</string>
+    <string name="cutsame_pick_select">选择</string>
+    <string name="eo_album_swipe_to_show_others">左右滑动预览其他素材</string>
+    <string name="cutsame_compose_need_template_url">合成页面需要templateUrl</string>
+    <string name="eo_cutsame_dialog_confirm">确定</string>
+    <string name="eo_cutsame_dialog_cancel">取消</string>
+    <string name="eo_cutsame_replace_dialog_title">替换素材</string>
+    <string name="eo_cutsame_replace_dialog_subtitle">仅替换选中片段，还是该颜色标记的所有片段？</string>
+    <string name="eo_cutsame_replace_dialog_confirm">替换该颜色标记的所有片段</string>
+    <string name="eo_cutsame_replace_dialog_cancel">仅替换选中片段</string>
+</resources>

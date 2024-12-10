@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="auto_recorder_beauty_sticker">BeautySticker</string>
+    <string name="auto_camera_modes_high_light">高光拍摄</string>
+    <string name="auto_recorder_exist_page_tip">Are you confirm exist？</string>
+    <string name="auto_recorder_save_album_suc">%s has saved to DICM</string>
+    <string name="auto_recorder_save_album_failed">%s has saved failed</string>
+    <string name="auto_recorder_saving_media_tip"> saving %s</string>
+    <string name="auto_recorder_photo">photo</string>
+    <string name="auto_recorder_video">video</string>
+    <string name="auto_recorder_popup_discardphoto">Discard the capture photo?</string>
+</resources>

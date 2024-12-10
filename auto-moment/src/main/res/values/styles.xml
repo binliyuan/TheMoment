@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="DatePickerTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/normal_widget_bg</item>
+    </style>
+
+    <style name="TimePickerTheme" parent="Theme.AppCompat.Light.Dialog">
+        <item name="colorAccent">@color/normal_widget_bg</item>
+    </style>
+
+    <style name="autoTabLayoutAppearance" parent="@style/textappearance_design_tab">
+        <item name="android:textSize">20dp</item>
+        <item name="android:maxLines">1</item>
+        <item name="android:ellipsize">end</item>
+    </style>
+
+
+    <declare-styleable name="AutoHighLightSeekBar">
+        <attr name="hlBgColor" format="color|reference"/>
+    </declare-styleable>
+</resources>

@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="auto_recorder_beauty_sticker">美颜贴纸</string>
+    <string name="auto_camera_modes_high_light">高光拍摄</string>
+    <string name="auto_recorder_exist_page_tip">确定退出拍摄页吗？</string>
+    <string name="auto_recorder_save_album_suc">%s已保存到相册</string>
+    <string name="auto_recorder_saving_media_tip">保存%s中</string>
+    <string name="auto_recorder_save_album_failed">%s保存失败</string>
+    <string name="auto_recorder_photo">图片</string>
+    <string name="auto_recorder_video">视频</string>
+    <string name="auto_recorder_popup_discardphoto">是否删除拍摄的照片?</string>
+</resources>

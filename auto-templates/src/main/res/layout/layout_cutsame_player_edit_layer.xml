@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ly_edit_layer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.volcengine.effectone.auto.templates.widget.CustomButtonLayout
+        android:id="@+id/layout_change_music"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="32dp"
+        android:layout_marginBottom="40dp"
+        app:layout_constraintBottom_toTopOf="@+id/layout_edit_text"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_goneMarginBottom="82dp"
+        app:te_normal_icon_res="@drawable/icon_music"
+        app:te_select_icon_res="@drawable/icon_select_music"
+        app:te_text_name="替换音乐" />
+
+    <!--marginBottom = 65+18-->
+    <com.volcengine.effectone.auto.templates.widget.CustomButtonLayout
+        android:id="@+id/layout_edit_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="82dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="@id/layout_change_music"
+        app:te_normal_icon_res="@drawable/icon_edit_text"
+        app:te_select_icon_res="@drawable/icon_select_edit_text"
+        app:te_text_name="编辑文字" />
+</androidx.constraintlayout.widget.ConstraintLayout>

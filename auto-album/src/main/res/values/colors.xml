@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="auto_album_indicator_color">#FE2BAB</color>
+    <color name="color_FF53BB">#FF53BB</color>
+    <color name="album_folder_bg_color">#201C31</color>
+</resources>

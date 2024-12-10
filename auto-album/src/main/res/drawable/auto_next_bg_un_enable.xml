@@ -1,0 +1,35 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:width="96dp"
+    android:height="96dp"
+    android:viewportWidth="96"
+    android:viewportHeight="96">
+    <path
+        android:fillAlpha="0.3"
+        android:pathData="M48,0L48,0A48,48 0,0 1,96 48L96,48A48,48 0,0 1,48 96L48,96A48,48 0,0 1,0 48L0,48A48,48 0,0 1,48 0z">
+        <aapt:attr name="android:fillColor">
+            <gradient
+                android:endX="103.161"
+                android:endY="-13.538"
+                android:startX="-4.96"
+                android:startY="-16.5"
+                android:type="linear">
+                <item
+                    android:color="#FFFF284B"
+                    android:offset="0" />
+                <item
+                    android:color="#FFFD2DDB"
+                    android:offset="1" />
+            </gradient>
+        </aapt:attr>
+    </path>
+    <group>
+        <clip-path android:pathData="M28,31h40v34h-40z" />
+        <path
+            android:fillAlpha="0.3"
+            android:fillColor="#EEEEEE"
+            android:pathData="M61.11,49.889L48.591,61.78C48.407,61.95 48.261,62.157 48.161,62.387C48.061,62.617 48.01,62.866 48.011,63.117C48.011,63.368 48.064,63.616 48.166,63.846C48.267,64.075 48.415,64.281 48.6,64.45C49.384,65.186 50.651,65.182 51.43,64.442L66.94,49.711C67.27,49.555 67.548,49.306 67.739,48.994C67.931,48.681 68.028,48.32 68.019,47.953C68.024,47.695 67.976,47.439 67.875,47.201C67.775,46.964 67.626,46.75 67.438,46.575L51.626,31.559C51.241,31.203 50.737,31.004 50.214,31.002C49.69,31 49.185,31.196 48.797,31.551C48.612,31.719 48.464,31.925 48.363,32.155C48.261,32.384 48.208,32.633 48.207,32.884C48.207,33.136 48.258,33.384 48.358,33.614C48.458,33.845 48.605,34.051 48.789,34.221L61.307,46.112H29.876C29.378,46.112 28.901,46.311 28.55,46.665C28.198,47.02 28,47.5 28,48.001C28,48.502 28.198,48.982 28.55,49.336C28.901,49.69 29.378,49.889 29.876,49.889H61.11Z"
+            tools:ignore="VectorPath" />
+    </group>
+</vector>

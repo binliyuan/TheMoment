@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="Theme.EffectOne.CommonPage" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@drawable/page_bg</item>
+    </style>
+
+    <style name="dialog_fullscreen" parent="Theme.AppCompat.Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:windowFullscreen">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="android:windowCloseOnTouchOutside">true</item>
+    </style>
+
+    <style name="mProgressbarStyle" parent="Widget.AppCompat.ProgressBar.Horizontal">
+        <item name="android:indeterminateOnly">false</item>
+    </style>
+
+    <style name="CutSame.Transparent" parent="Theme.AppCompat.Light.NoActionBar">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+    <declare-styleable name="GradientBorderView">
+        <attr name="border_radius" format="dimension|reference" />
+        <attr name="border_start_color" format="reference|color" />
+        <attr name="border_end_color" format="reference|color" />
+        <attr name="border_width" format="dimension|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="TopRoundFrameLayout">
+        <attr name="ts_round_radius" format="dimension|reference" />
+    </declare-styleable>
+
+    <style name="MusicItemRoundedStyle">
+        <item name="cornerFamily">rounded</item>
+        <item name="cornerSize">6dp</item>
+    </style>
+
+    <declare-styleable name="CustomButtonLayout">
+        <attr name="te_bg_res" format="reference|color" />
+        <attr name="te_normal_icon_res" format="reference|color" />
+        <attr name="te_select_icon_res" format="reference|color" />
+        <attr name="te_normal_tv_color" format="reference|color" />
+        <attr name="te_select_tv_color" format="reference|color" />
+        <attr name="te_text_name" format="reference|string" />
+        <attr name="te_text_margin_top" format="reference|dimension" />
+        <attr name="te_checked" format="reference|boolean" />
+    </declare-styleable>
+
+    <style name="Dialog" parent="@android:style/Theme.Holo.Light.Dialog">
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:backgroundDimEnabled">true</item>
+        <item name="android:backgroundDimAmount">0.8</item>
+    </style>
+</resources>

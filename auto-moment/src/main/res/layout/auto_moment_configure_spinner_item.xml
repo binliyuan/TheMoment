@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TextView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/ck_moment_configure_spinner_item_text_view"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/ck_moment_configure_line_height"
+    android:gravity="center_vertical"
+    android:textColor="@color/normal_widget_text"
+    android:textSize="@dimen/ck_moment_configure_font_size_view_text"
+    android:paddingLeft="6dp"
+    />

@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.volcengine.effectone.auto.templates.widget.ClickConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/ly_video_list_panel_container"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="117dp"
+    android:background="@drawable/player_bottom_layout_bg"
+    android:paddingStart="32dp"
+    android:paddingEnd="32dp">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="0dp"
+        android:layout_height="70dp"
+        android:layout_marginEnd="18dp"
+        android:orientation="horizontal"
+        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toLeftOf="@+id/tv_export"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:listitem="@layout/item_cutsame_player_bottom_video" />
+
+    <com.volcengine.effectone.auto.templates.widget.CustomButtonLayout
+        android:id="@+id/tv_export"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="@color/color_EEE"
+        android:textSize="14sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:te_bg_res="@drawable/te_circle_button_bg"
+        app:te_normal_icon_res="@drawable/icon_right_arrow"
+        app:te_normal_tv_color="@color/color_EEE"
+        app:te_text_margin_top="4dp"
+        app:te_text_name="导出" />
+</com.volcengine.effectone.auto.templates.widget.ClickConstraintLayout>

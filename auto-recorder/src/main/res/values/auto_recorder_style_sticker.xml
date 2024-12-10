@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="EffectOne.Auto_recorder_stickerNameView">
+        <item name="android:layout_width">@dimen/eo_base_sticker_item_size</item>
+        <item name="android:layout_height">@dimen/eo_base_sticker_item_size</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">#EEEEEE</item>
+    </style>
+    <style name="EffectOne.Auto_recorder_StickerIconView">
+        <item name="android:layout_width">@dimen/eo_base_sticker_item_size</item>
+        <item name="android:layout_height">@dimen/eo_base_sticker_item_size</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+    <style name="EffectOne.Auto_recorder_StickerNoneView">
+        <item name="android:layout_width">@dimen/auto_sticker_item_none_size</item>
+        <item name="android:layout_height">@dimen/auto_sticker_item_none_size</item>
+        <item name="android:scaleType">centerInside</item>
+    </style>
+    <dimen name="eo_base_model_select_item_width">32dp</dimen>
+
+    <color name="auto_tab_tile_selected">#EEEEEE</color>
+    <color name="auto_tab_tile_unselected">#99EEEEEE</color>
+</resources>

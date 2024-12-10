@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="auto_sticker_item_none_size">34dp</dimen>
+    <dimen name="auto_recorder_beauty_item_width">65dp</dimen>
+    <dimen name="auto_recorder_item_width">64dp</dimen>
+    <dimen name="auto_recorder_item_height">72dp</dimen>
+    <dimen name="auto_recorder_item_image_size">24dp</dimen>
+    <dimen name="auto_recorder_item_bg_width">60dp</dimen>
+    <dimen name="auto_recorder_item_bg_height">70dp</dimen>
+</resources>

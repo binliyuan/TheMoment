@@ -1,0 +1,58 @@
+ext {
+    minSdk = 21
+    targetSdk = 33
+    compileSdk = 33
+    java_version = JavaVersion.VERSION_11
+
+    ndkVersion = "21.3.6528147"
+
+    kotlin_version = "1.5.30"
+    kotlin_corcoutine_version = "1.5.2"
+    kotlin_jvmTarget = "11"
+
+    versions = [:]
+    versions."app-compat" = "1.3.0"
+    versions."lifecycle" = "2.3.1"
+    versions."materila" = "1.2.0"
+
+    versions."nle_version" = "${NLE_VERSION}"
+    versions."vesdk" = "${VESDK_VERSION}"
+    versions."effectsdk" = "${EFFECT_VERSION}"
+
+    libs = [:]
+    //appcompat version: https://developer.android.com/jetpack/androidx/releases/appcompat?hl=zh-cn
+    libs."app-compat" = "androidx.appcompat:appcompat:${versions["app-compat"]}"
+    //lifecycle version: https://developer.android.com/jetpack/androidx/releases/lifecycle?hl=zh-cn
+    libs."lifecycle-viewmodel" = "androidx.lifecycle:lifecycle-viewmodel:${versions["lifecycle"]}"
+    libs."material" = "com.google.android.material:material:${versions["materila"]}"
+
+    libs."kotlin-stdlib" = "org.jetbrains.kotlin:kotlin-stdlib:${kotlin_version}"
+
+    libs."kotlinx-coroutines-android" = "org.jetbrains.kotlinx:kotlinx-coroutines-android:${kotlin_corcoutine_version}"
+    libs."kotlinx-coroutines-core" = "org.jetbrains.kotlinx:kotlinx-coroutines-core:${kotlin_corcoutine_version}"
+
+    //NLE相关
+    libs."nlemediapublic" = "com.volcengine.ck.nle:NLEMediaPublic:${versions["nle_version"]}"
+    libs."nleeditor" = "com.volcengine.ck.nle:NLEEditor:${versions["nle_version"]}"
+    libs."nletemplatemodel" = "com.volcengine.ck.nle:NLETemplateModel:${versions["nle_version"]}"
+
+    libs."vesdk" = "com.bytedance.ugc.framework.libs:vesdk:${versions["vesdk"]}"
+    libs."effectsdk" = "com.bytedance:effectsdk:${versions["effectsdk"]}"
+
+
+    //剪同款相关
+    libs."CK-CutSameIF" = "com.volcengine.ck.cutsame:CK-CutSameIF:${CUTSAME_IF_VERSION}"
+    libs."cutsameconsumer" = "com.volcengine.ck.cutsame:CutSameConsumer:${CUTSAME_CONSUMER_VERSION}"
+
+    //状态栏适配
+    libs."immersionbar" = "com.geyifeng.immersionbar:immersionbar:3.2.2"
+    libs."immersionbar-ktx" = "com.geyifeng.immersionbar:immersionbar-ktx:3.2.2"
+
+    libs."constraintlayout" = "androidx.constraintlayout:constraintlayout:2.1.4"
+    libs."recyclerview" = "androidx.recyclerview:recyclerview:1.2.1"
+    libs."gson" = "com.google.code.gson:gson:2.9.0"
+    libs."glide" = "com.github.bumptech.glide:glide:4.13.2"
+    libs."okhttp" = "com.squareup.okhttp3:okhttp:4.9.3"
+    libs."logkit" = "com.volcengine.ck:logkit:0.0.2-alpha.6"
+    libs."keva" = "com.bytedance.keva:keva:1.6.0"
+}

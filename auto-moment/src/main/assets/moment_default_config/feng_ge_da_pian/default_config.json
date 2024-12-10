@@ -1,0 +1,108 @@
+{
+  "cover": "",
+  "id": "1706512460",
+  "isPOI": false,
+  "title": "风格大片",
+  "config": {
+    "id": "f96b4705-83fb-4db7-be8c-a3adb9c84db8",
+    "momentTemplates": [],
+    "requirement": {
+      "maxFilterCity": 1,
+      "minCount": 10,
+      "minScores": 0.6,
+      "pathFilter": "",
+      "requireTags": [
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "雪景"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "雾"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "池塘"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "山溪"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "花"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "梯田"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "园林"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "小岛"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "农田"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "草地"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "森林"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "花海"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "郁金香"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "向日葵"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "湖"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "海"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "汽车"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "车流"
+        }
+      ]
+    }
+  }
+}

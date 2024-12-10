@@ -1,0 +1,108 @@
+{
+  "title": "驾驶碎片",
+  "cover": "",
+  "id": "1706512438",
+  "isPOI": false,
+  "config": {
+    "id": "f19f6b02-a1b3-4b75-8940-29e3b0107678",
+    "momentTemplates": [],
+    "requirement": {
+      "maxFilterCity": 1,
+      "minCount": 10,
+      "minScores": 0.6,
+      "pathFilter": "",
+      "requireTags": [
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "自拍"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "山"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "雪山"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "山洞"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "山路"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "小岛"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "天空"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "蓝天白云"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "彩虹"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "树"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "古建筑"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "乡村建筑"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "公园"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "猫"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "狗"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "单人"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "双人"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "多人"
+        }
+      ]
+    }
+  }
+}

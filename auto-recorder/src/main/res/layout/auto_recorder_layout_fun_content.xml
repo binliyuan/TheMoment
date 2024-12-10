@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:parentTag="androidx.constraintlayout.widget.ConstraintLayout">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/auto_recorder_highlight_video_list_container"
+        android:layout_width="160dp"
+        android:layout_height="match_parent"
+        android:animateLayoutChanges="true"
+        android:background="#302B45"
+        android:visibility="gone"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <include layout="@layout/auto_record_layout_highlight_video_list" />
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:background="@drawable/auto_recorder_bottom_bg"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent">
+
+
+        <com.volcengine.effectone.recorderui.widget.EORecordButton
+            android:id="@+id/auto_recorder_start_record"
+            android:layout_width="@dimen/eo_recorder_record_button_size"
+            android:layout_height="@dimen/eo_recorder_record_button_size"
+            android:layout_marginBottom="12dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:videoRecordingBorderColor="@color/auto_record_button_panel_color"
+            app:videoStartBorderColor="@color/TextPrimary"
+            app:videoStartPanelColor="@color/auto_record_button_panel_color" />
+
+
+        <LinearLayout
+            android:id="@+id/auto_recorder_album_container"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="32dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="@id/auto_recorder_start_record"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/auto_recorder_start_record">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/auto_recorder_album_icon"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="centerCrop"
+                app:shapeAppearance="@style/EffectOne.Camera.AlbumRoundedStyle"
+                app:srcCompat="@drawable/auto_camera_upload" />
+
+            <TextView
+                android:id="@+id/auto_recorder_album_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="3dp"
+                android:text="相册"
+                android:textColor="@color/TextPrimary"
+                android:textSize="13dp"
+                tools:ignore="HardcodedText,SpUsage" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/auto_recorder_beauty_drawer"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginStart="32dp"
+            android:orientation="vertical"
+            app:layout_constraintBottom_toBottomOf="@id/auto_recorder_start_record"
+            app:layout_constraintStart_toEndOf="@id/auto_recorder_album_container"
+            app:layout_constraintTop_toTopOf="@id/auto_recorder_start_record">
+
+            <com.google.android.material.imageview.ShapeableImageView
+                android:id="@+id/auto_recorder_beauty_icon"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="center_horizontal"
+                android:scaleType="centerCrop"
+                app:shapeAppearance="@style/EffectOne.Camera.AlbumRoundedStyle"
+                app:srcCompat="@drawable/auto_recorder_drawer_btn_icon" />
+
+            <TextView
+                android:id="@+id/auto_recorder_beauty_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="3dp"
+                android:text="@string/auto_recorder_beauty_sticker"
+                android:textColor="@color/TextPrimary"
+                android:textSize="13dp"
+                tools:ignore="SpUsage" />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/auto_recorder_delete_video"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginEnd="32dp"
+            android:padding="10dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/auto_camera_delete_icon"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/auto_recorder_start_record"
+            app:layout_constraintEnd_toStartOf="@id/auto_recorder_start_record"
+            app:layout_constraintTop_toTopOf="@id/auto_recorder_start_record"
+            tools:ignore="ContentDescription" />
+
+        <ImageView
+            android:id="@+id/auto_recorder_to_next"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            android:layout_marginStart="32dp"
+            android:padding="10dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/auto_camera_next_icon"
+            android:visibility="gone"
+            app:layout_constraintBottom_toBottomOf="@id/auto_recorder_start_record"
+            app:layout_constraintStart_toEndOf="@id/auto_recorder_start_record"
+            app:layout_constraintTop_toTopOf="@id/auto_recorder_start_record"
+            tools:ignore="ContentDescription" />
+
+        <FrameLayout
+            android:id="@+id/recorder_bottom_container"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            app:layout_constraintBottom_toTopOf="@id/auto_recorder_start_record"
+            app:layout_constraintEnd_toEndOf="@id/auto_recorder_start_record"
+            app:layout_constraintStart_toStartOf="@id/auto_recorder_start_record"
+            tools:ignore="UselessLeaf">
+
+            <com.volcengine.effectone.widget.EOModelSelectLayout
+                android:id="@+id/eo_recorder_model_select"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:orientation="horizontal"
+                android:textSize="13dp"
+                android:textStyle="bold"
+                app:itemSize="70dp"
+                app:normal_textColor="#EEEEEE"
+                app:point_background="@drawable/auto_recorder_model_selected_bg"
+                app:point_height="24dp"
+                app:point_width="60dp"
+                app:select_textColor="@color/Black"
+                tools:ignore="SpUsage" />
+        </FrameLayout>
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="12dp"
+            app:layout_constraintBottom_toTopOf="@id/auto_recorder_start_record"
+            app:layout_constraintEnd_toEndOf="@id/auto_recorder_start_record"
+            app:layout_constraintStart_toStartOf="@id/auto_recorder_start_record">
+
+            <!--多包一层FrameLayout,为了不受父布局动画效果影响-->
+            <ViewStub
+                android:id="@+id/auto_recorder_record_duration_view"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout="@layout/auto_recorder_recording_duration" />
+        </FrameLayout>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+    <ImageView
+        android:id="@+id/auto_recorder_camera_back"
+        android:layout_width="44dp"
+        android:layout_height="44dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/auto_recorder_back_icon"
+        app:layout_constraintStart_toEndOf="@id/auto_recorder_highlight_video_list_container"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/auto_recorder_right_guideline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_end="32dp" />
+
+    <ImageView
+        android:id="@+id/auto_recorder_camera_flip"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_gravity="center"
+        android:layout_marginTop="20dp"
+        android:padding="6dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/eo_camera_flip"
+        app:layout_constraintEnd_toStartOf="@id/auto_recorder_right_guideline"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="ContentDescription" />
+
+    <LinearLayout
+        android:id="@+id/auto_recorder_highlight_container"
+        android:layout_width="200dp"
+        android:layout_height="wrap_content"
+        android:animateLayoutChanges="true"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toStartOf="@id/auto_recorder_right_guideline"
+        app:layout_constraintTop_toBottomOf="@id/auto_recorder_camera_flip">
+
+        <include layout="@layout/auto_record_layout_highlight_tips" />
+
+    </LinearLayout>
+
+</merge>

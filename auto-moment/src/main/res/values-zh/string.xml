@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="ck_one_home_title_timeStory">时光故事</string>
+    <string name="ck_one_home_button_configure_moment">配置Moment</string>
+    <string name="ck_one_home_button_start_story">开启时光故事</string>
+    <string name="ck_one_moment_configure_name">Moment名称</string>
+    <string name="ck_one_moment_configure_related_template">关联模版</string>
+    <string name="ck_one_moment_configure_time">选择时间</string>
+    <string name="ck_one_moment_configure_location">选择地点</string>
+    <string name="ck_one_moment_configure_tag">标签</string>
+    <string name="ck_one_moment_configure_add_tag">添加标签</string>
+    <string name="ck_one_moment_configure_title">配置主题</string>
+    <string name="ck_one_moment_configure_time_hint">选择时间</string>
+    <string name="ck_one_moment_configure_label_item_confidence">置信度</string>
+    <string name="ck_one_moment_configure_label_item_priority">优先级</string>
+    <string name="ck_one_moment_configure_label_item_delete">删除</string>
+    <string name="ck_one_moment_configure_confirm">确认</string>
+    <string name="ck_one_moment_configure_cancel">取消</string>
+    <string name="ck_one_moment_configure_save">保存</string>
+    <string name="ck_one_moment_configure_back">返回</string>
+    <string name="ck_one_moment_configure_time_start_hint">选择开始时间</string>
+    <string name="ck_one_moment_configure_time_end_hint">选择结束时间</string>
+    <string name="ck_one_moment_configure_toast_save_moment_config">Moment保存成功！</string>
+    <string name="ck_one_moment_configure_reset">重置</string>
+    <string name="ck_one_moment_configure_toast_time_period_error">设置的时间是无效的！</string>
+
+    <string name="auto_material_recognize_high_light_duration_info">高光时长：%1dms-%2dms</string>
+    <string name="auto_material_recognize_high_light_keywords">  关键词：%s</string>
+
+</resources>

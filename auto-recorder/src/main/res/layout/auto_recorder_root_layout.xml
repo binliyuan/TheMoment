@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.drawerlayout.widget.DrawerLayout
+        android:id="@+id/auto_record_drawer"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:id="@+id/auto_record_root"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <FrameLayout
+            android:id="@+id/auto_record_menu"
+            android:layout_width="295dp"
+            android:layout_height="match_parent"
+            android:layout_gravity="end"
+            android:orientation="vertical" />
+    </androidx.drawerlayout.widget.DrawerLayout>
+
+</FrameLayout>

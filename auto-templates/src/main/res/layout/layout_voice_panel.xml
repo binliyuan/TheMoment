@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <com.volcengine.effectone.auto.templates.widget.ClickConstraintLayout
+        android:id="@+id/ly_voice_panel_container"
+        android:layout_width="match_parent"
+        android:layout_height="117dp"
+        android:background="@drawable/player_bottom_layout_bg">
+
+        <Button
+            android:id="@+id/btn_confirm"
+            android:layout_width="135dp"
+            android:layout_height="40dp"
+            android:layout_marginStart="32dp"
+            android:layout_marginTop="18dp"
+            android:background="@drawable/te_btn_confirm_bg"
+            android:gravity="center"
+            android:text="确认"
+            android:textColor="@color/color_EEE"
+            android:textSize="18sp"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <Button
+            android:id="@+id/btn_cancel"
+            android:layout_width="135dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/te_btn_cancel_bg"
+            android:gravity="center"
+            android:text="取消"
+            android:textColor="@color/color_EEE"
+            android:textSize="18sp"
+            app:layout_constraintLeft_toLeftOf="@id/btn_confirm"
+            app:layout_constraintTop_toBottomOf="@+id/btn_confirm" />
+
+        <TextView
+            android:id="@+id/tv_start_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="43dp"
+            android:text="0"
+            android:textColor="@color/color_99_EEE"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/btn_confirm"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <com.volcengine.effectone.auto.templates.widget.ThumbTextSeekBar
+            android:id="@+id/seek_bar_voice"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="26dp"
+            android:layout_marginEnd="26dp"
+            android:maxHeight="8dp"
+            android:progressDrawable="@drawable/te_player_seekbar"
+            android:splitTrack="false"
+            android:thumb="@drawable/te_player_voice_thumb"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintLeft_toRightOf="@+id/tv_start_num"
+            app:layout_constraintRight_toLeftOf="@+id/tv_end_num"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:id="@+id/tv_end_num"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="50dp"
+            android:text="200"
+            android:textColor="@color/color_99_EEE"
+            android:textSize="18sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+    </com.volcengine.effectone.auto.templates.widget.ClickConstraintLayout>
+</merge>

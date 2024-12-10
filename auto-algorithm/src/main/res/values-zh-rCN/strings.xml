@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="algorithm_license_cake">车端脱敏</string>
+    <string name="algorithm_child_detect">儿童检测</string>
+</resources>

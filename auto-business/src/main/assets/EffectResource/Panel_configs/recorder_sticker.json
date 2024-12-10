@@ -1,0 +1,510 @@
+{
+    "data": {
+        "tabs": [
+            {
+                "uniqueId": "d0001",
+                "titleDict": {
+                    "en": "2D",
+                    "zh": "2D"
+                },
+                "subItems": [
+                    {
+                        "uniqueId": "d0002",
+                        "titleDict": {
+                            "en": "Autumn Leaves",
+                            "zh": "金秋叶舞"
+                        },
+                        "builtInIcon": "eo_resource_jinqiuyewu_7048762992175349791.png",
+                        "md5": "F18FDFFD6DB904FFBE465909F0867959",
+                        "relativePath": "StickerResource.bundle/jinqiuyewu_7048762992175349791.zip",
+                        "param": {
+                            "path": "StickerResource.bundle/jinqiuyewu_7048762992175349791"
+                        },
+                        "requirements": [
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                            },
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                "md5": "D342795D110E4230666FB41B413AA638"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhl4hpkg6_v5.0.model",
+                                "md5": "194F4C038CD35A4E07FF378DE97B8709"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kgh_v8.0.model",
+                                "md5": "8CDD9000E4DE6111E21B148B3BFA2D5B"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlgt4_v7.0.model",
+                                "md5": "4FFDB764F2EC8876B615A6865330E96C"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlhmg7p_v3.0.model",
+                                "md5": "EA8D1F0BCEE6B8DC4DE8AC2693C85FE2"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlhmi_v1.0.model",
+                                "md5": "93BB53B5394184A0495A278F7A801C3A"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlpah_v2.0.model",
+                                "md5": "9EB2F0B32B36C71220AE4645144596DA"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl4hpkg6lpgg7e_v2.0.model",
+                                "md5": "2C2DC971E4F7567D09D26F870965043B"
+                            },
+                            {
+                                "relativePath": "handmodel/algo_ggl0pcvl4tml7ha_v12.0.model",
+                                "md5": "9D85DE071360FDF2EF16BB89D7153B6C"
+                            },
+                            {
+                                "relativePath": "handmodel/algo_ggl0pcvl75ca_v1.1.model",
+                                "md5": "1588A926866EF9A5367F23ADD9F0C2A5"
+                            },
+                            {
+                                "relativePath": "handmodel/algo_ggl0pcvl97_v3.2.model",
+                                "md5": "A55AFDBBD45B1C84E33E2EA3A6859368"
+                            },
+                            {
+                                "relativePath": "handmodel/algo_ggl0pcvlahugk7h_v11.0.model",
+                                "md5": "D5B8890589D61D738EB3AC050AC3716A"
+                            },
+                            {
+                                "relativePath": "handmodel/algo_ggl0pcvlahugk7hlgt4_v11.2.model",
+                                "md5": "068E6D58EE05EA0250C2E96852DEBAA7"
+                            },
+                            {
+                                "relativePath": "handmodel/algo_ggl0pcvlsi_v6.0.model",
+                                "md5": "130183E2A6880A627AFF4E86874E580B"
+                            },
+                            {
+                                "relativePath": "handmodel/algo_ggl0pcvlsibv_v2.0.model",
+                                "md5": "97807B3D18A6D77D86E8DF96CEA386C7"
+                            },
+                            {
+                                "relativePath": "handmodel/algo_ggl0pcvluha_v2.0.model",
+                                "md5": "DDDC9206CD2C70310C803E226E0F0A02"
+                            },
+                            {
+                                "relativePath": "handmodel/algo_ggl0pcvlvhg_v11.0.model",
+                                "md5": "208FF7DC0FE017C029D32D38646AC4F2"
+                            }
+                        ],
+                        "tipsDict": {
+                            "en": "Take out your hand",
+                            "zh": "伸出手掌"
+                        }
+                    },
+                    {
+                        "uniqueId": "d0003",
+                        "titleDict": {
+                            "en": "Daily Makeup",
+                            "zh": "完颜日常妆"
+                        },
+                        "builtInIcon": "eo_resource_wanyanrichangzhuang_7031856762165035016.png",
+                        "md5": "87523B42FF925889883F8523E1789259",
+                        "relativePath": "StickerResource.bundle/wanyanrichangzhuang_7031856762165035016.zip",
+                        "param": {
+                            "path": "StickerResource.bundle/wanyanrichangzhuang_7031856762165035016"
+                        },
+                        "requirements": [
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                            },
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                "md5": "D342795D110E4230666FB41B413AA638"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "uniqueId": "d0007",
+                "titleDict": {
+                    "en": "3D",
+                    "zh": "3D"
+                },
+                "subItems": [
+                    {
+                        "uniqueId": "d0008",
+                        "titleDict": {
+                            "en": "Heart laser mouse",
+                            "zh": "爱心镭射鼠"
+                        },
+                        "builtInIcon": "eo_resource_aixinleisheshu_7031857083764310029.png",
+                        "md5": "FB4ADD1FF7914DF592A6078B202B71B7",
+                        "relativePath": "StickerResource.bundle/aixinleisheshu_7031857083764310029.zip",
+                        "param": {
+                            "path": "StickerResource.bundle/aixinleisheshu_7031857083764310029"
+                        },
+                        "requirements": [
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                            },
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                "md5": "D342795D110E4230666FB41B413AA638"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhl4hpkg6_v5.0.model",
+                                "md5": "194F4C038CD35A4E07FF378DE97B8709"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kgh_v8.0.model",
+                                "md5": "8CDD9000E4DE6111E21B148B3BFA2D5B"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlgt4_v7.0.model",
+                                "md5": "4FFDB764F2EC8876B615A6865330E96C"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlhmg7p_v3.0.model",
+                                "md5": "EA8D1F0BCEE6B8DC4DE8AC2693C85FE2"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlhmi_v1.0.model",
+                                "md5": "93BB53B5394184A0495A278F7A801C3A"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlpah_v2.0.model",
+                                "md5": "9EB2F0B32B36C71220AE4645144596DA"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl4hpkg6lpgg7e_v2.0.model",
+                                "md5": "2C2DC971E4F7567D09D26F870965043B"
+                            }
+                        ]
+                    },
+                    {
+                        "uniqueId": "d0009",
+                        "titleDict": {
+                            "en": "Rainbow Bunny",
+                            "zh": "彩虹兔"
+                        },
+                        "builtInIcon": "eo_resource_caihongtu_6987697295252865032.png",
+                        "md5": "9319EB9D07815CDEB058F5D9BDDD8812",
+                        "relativePath": "StickerResource.bundle/caihongtu_6987697295252865032.zip",
+                        "param": {
+                            "path": "StickerResource.bundle/caihongtu_6987697295252865032"
+                        },
+                        "requirements": [
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                            },
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                "md5": "D342795D110E4230666FB41B413AA638"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhl4hpkg6_v5.0.model",
+                                "md5": "194F4C038CD35A4E07FF378DE97B8709"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kgh_v8.0.model",
+                                "md5": "8CDD9000E4DE6111E21B148B3BFA2D5B"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlgt4_v7.0.model",
+                                "md5": "4FFDB764F2EC8876B615A6865330E96C"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlhmg7p_v3.0.model",
+                                "md5": "EA8D1F0BCEE6B8DC4DE8AC2693C85FE2"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlhmi_v1.0.model",
+                                "md5": "93BB53B5394184A0495A278F7A801C3A"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlpah_v2.0.model",
+                                "md5": "9EB2F0B32B36C71220AE4645144596DA"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl4hpkg6lpgg7e_v2.0.model",
+                                "md5": "2C2DC971E4F7567D09D26F870965043B"
+                            }
+                        ]
+                    },
+                    {
+                        "uniqueId": "d0013",
+                        "titleDict": {
+                            "en": "Stuffed puppy hat",
+                            "zh": "毛绒小狗Hat"
+                        },
+                        "builtInIcon": "eo_resource_maorongxiaogouhat_7318301311215910921.png",
+                        "md5": "4EF1714AD469C9264CD5BAC640945BE7",
+                        "relativePath": "StickerResource.bundle/maorongxiaogouHat_7318301311215910921.zip",
+                        "param": {
+                            "path": "StickerResource.bundle/maorongxiaogouHat_7318301311215910921"
+                        },
+                        "requirements": [
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                            },
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                "md5": "D342795D110E4230666FB41B413AA638"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhl4hpkg6_v5.0.model",
+                                "md5": "194F4C038CD35A4E07FF378DE97B8709"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kgh_v8.0.model",
+                                "md5": "8CDD9000E4DE6111E21B148B3BFA2D5B"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlgt4_v7.0.model",
+                                "md5": "4FFDB764F2EC8876B615A6865330E96C"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlhmg7p_v3.0.model",
+                                "md5": "EA8D1F0BCEE6B8DC4DE8AC2693C85FE2"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlhmi_v1.0.model",
+                                "md5": "93BB53B5394184A0495A278F7A801C3A"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlpah_v2.0.model",
+                                "md5": "9EB2F0B32B36C71220AE4645144596DA"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl4hpkg6lpgg7e_v2.0.model",
+                                "md5": "2C2DC971E4F7567D09D26F870965043B"
+                            },
+                            {
+                                "relativePath": "hairparser/algo_ggl0p57_v11.0.model",
+                                "md5": "AB236C61BE467A74BF9C9733AAE1176D"
+                            },
+                            {
+                                "relativePath": "hairparser/algo_ggl0p57lg5pt7pcluha_v1.0.model",
+                                "md5": "F747815AE25FCA46682369FA992D5BEE"
+                            }
+                        ]
+                    },
+                    {
+                        "uniqueId": "d0014",
+                        "titleDict": {
+                            "en": "Fur Bunny ears",
+                            "zh": "绒绒兔耳"
+                        },
+                        "builtInIcon": "eo_resource_rongrongtuer_7031862011642822687.png",
+                        "md5": "087ECE1A63DD51D0F8F5A0F692B25A7A",
+                        "relativePath": "StickerResource.bundle/rongrongtuer_7031862011642822687.zip",
+                        "param": {
+                            "path": "StickerResource.bundle/rongrongtuer_7031862011642822687"
+                        },
+                        "requirements": [
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                            },
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                "md5": "D342795D110E4230666FB41B413AA638"
+                            }
+                        ]
+                    },
+                    {
+                        "uniqueId": "d0015",
+                        "titleDict": {
+                            "en": "How to be handsome on the Internet",
+                            "zh": "如何成为一个网络帅哥"
+                        },
+                        "builtInIcon": "eo_resource_ruhechengweiyigewangluoshuaige_7063272109959807007.png",
+                        "md5": "4B18E05FB076FA3403D5EBBC911161C6",
+                        "relativePath": "StickerResource.bundle/ruhechengweiyigewangluoshuaige_7063272109959807007.zip",
+                        "param": {
+                            "path": "StickerResource.bundle/ruhechengweiyigewangluoshuaige_7063272109959807007"
+                        },
+                        "requirements": [
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                            },
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                "md5": "D342795D110E4230666FB41B413AA638"
+                            }
+                        ]
+                    },
+                    {
+                        "uniqueId": "d0019",
+                        "titleDict": {
+                            "en": "Transparent Bunny",
+                            "zh": "透明兔子"
+                        },
+                        "builtInIcon": "eo_resource_toumingtuzi_7031856794994999327.png",
+                        "md5": "CF9C3E6018BC360E3809E99F056514BA",
+                        "relativePath": "StickerResource.bundle/toumingtuzi_7031856794994999327.zip",
+                        "param": {
+                            "path": "StickerResource.bundle/toumingtuzi_7031856794994999327"
+                        },
+                        "requirements": [
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                            },
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                "md5": "D342795D110E4230666FB41B413AA638"
+                            }
+                        ]
+                    },
+                    {
+                        "uniqueId": "d0020",
+                        "titleDict": {
+                            "en": "My bae",
+                            "zh": "我的宝贝"
+                        },
+                        "builtInIcon": "eo_resource_wodebaobei_7037308682275848206.png",
+                        "md5": "785459D9E1CFE5D82E197F04370CCEE1",
+                        "relativePath": "StickerResource.bundle/wodebaobei_7037308682275848206.zip",
+                        "param": {
+                            "path": "StickerResource.bundle/wodebaobei_7037308682275848206"
+                        },
+                        "requirements": [
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                            },
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                "md5": "D342795D110E4230666FB41B413AA638"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhl4hpkg6_v5.0.model",
+                                "md5": "194F4C038CD35A4E07FF378DE97B8709"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kgh_v8.0.model",
+                                "md5": "8CDD9000E4DE6111E21B148B3BFA2D5B"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlgt4_v7.0.model",
+                                "md5": "4FFDB764F2EC8876B615A6865330E96C"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlhmg7p_v3.0.model",
+                                "md5": "EA8D1F0BCEE6B8DC4DE8AC2693C85FE2"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlhmi_v1.0.model",
+                                "md5": "93BB53B5394184A0495A278F7A801C3A"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlpah_v2.0.model",
+                                "md5": "9EB2F0B32B36C71220AE4645144596DA"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl4hpkg6lpgg7e_v2.0.model",
+                                "md5": "2C2DC971E4F7567D09D26F870965043B"
+                            },
+                            {
+                                "relativePath": "avatar_drive/algo_gglprpgp7lv75rh_v1.0.model",
+                                "md5": "544B5BB2C63BFFB792E3E79A967A1A62"
+                            },
+                            {
+                                "relativePath": "algo_ggl45aapc",
+                                "md5": "18E65BF9D73E1F6CD50C56345CDF6C8F"
+                            }
+                        ]
+                    },
+                    {
+                        "uniqueId": "d0021",
+                        "titleDict": {
+                            "en": "Bear Hat",
+                            "zh": "小熊毛绒帽"
+                        },
+                        "builtInIcon": "eo_resource_xiaoxiongmaorongmao_7322370546850054182.png",
+                        "md5": "E8902C2BDEB8948207D042BF4F040CC8",
+                        "relativePath": "StickerResource.bundle/xiaoxiongmaorongmao_7322370546850054182.zip",
+                        "param": {
+                            "path": "StickerResource.bundle/xiaoxiongmaorongmao_7322370546850054182"
+                        },
+                        "requirements": [
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                            },
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                "md5": "D342795D110E4230666FB41B413AA638"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "uniqueId": "d0023",
+                "titleDict": {
+                    "en": "Complex",
+                    "zh": "复杂"
+                },
+                "subItems": [
+                    {
+                        "uniqueId": "d0024",
+                        "titleDict": {
+                            "en": "Dadicate Lady",
+                            "zh": "精致女神"
+                        },
+                        "builtInIcon": "eo_resource_jingzhinvshen_7094239946748592142.png",
+                        "md5": "D527F781281FAA4C29E2479E103EF02C",
+                        "relativePath": "StickerResource.bundle/jingzhinvshen_7094239946748592142.zip",
+                        "param": {
+                            "path": "StickerResource.bundle/jingzhinvshen_7094239946748592142"
+                        },
+                        "requirements": [
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                            },
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                "md5": "D342795D110E4230666FB41B413AA638"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhl4hpkg6_v5.0.model",
+                                "md5": "194F4C038CD35A4E07FF378DE97B8709"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kgh_v8.0.model",
+                                "md5": "8CDD9000E4DE6111E21B148B3BFA2D5B"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlgt4_v7.0.model",
+                                "md5": "4FFDB764F2EC8876B615A6865330E96C"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlhmg7p_v3.0.model",
+                                "md5": "EA8D1F0BCEE6B8DC4DE8AC2693C85FE2"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlhmi_v1.0.model",
+                                "md5": "93BB53B5394184A0495A278F7A801C3A"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlpah_v2.0.model",
+                                "md5": "9EB2F0B32B36C71220AE4645144596DA"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl4hpkg6lpgg7e_v2.0.model",
+                                "md5": "2C2DC971E4F7567D09D26F870965043B"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

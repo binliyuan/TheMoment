@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/eo_main_fragment_main">
+
+    <TextView
+        android:id="@+id/algorithms_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="12dp"
+        android:text="车载算法"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/main_car_desensitization"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageView
+        android:id="@+id/main_car_desensitization"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="12dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/auto_business_desensitization"
+        app:layout_constraintDimensionRatio="W,210:580"
+        app:layout_constraintTop_toBottomOf="@id/algorithms_title" />
+
+    <ImageView
+        android:id="@+id/main_car_category"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="12dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/auto_business_category"
+        app:layout_constraintDimensionRatio="W,210:580"
+        app:layout_constraintTop_toBottomOf="@id/main_car_desensitization" />
+
+    <ImageView
+        android:id="@+id/main_car_child"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="12dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/auto_business_child"
+        app:layout_constraintDimensionRatio="W,210:580"
+        app:layout_constraintTop_toBottomOf="@id/main_car_category" />
+
+
+</merge>

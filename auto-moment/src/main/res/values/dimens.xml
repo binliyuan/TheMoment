@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="ck_moment_configure_line_height">55dp</dimen>
+    <dimen name="ck_moment_configure_higher_line_height">76dp</dimen>
+    <dimen name="ck_moment_configure_small_button_width">45dp</dimen>
+    <dimen name="ck_moment_configure_font_size_label">24sp</dimen>
+    <dimen name="ck_moment_configure_font_size_view_text">24sp</dimen>
+    <dimen name="ck_moment_configure_font_size_large_button_text">28sp</dimen>
+</resources>

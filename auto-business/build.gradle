@@ -1,0 +1,83 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+}
+
+def canPublish = rootProject.ext.properties.containsKey("publish_script_path")
+if (canPublish) {
+    def publishFile = rootProject.file(rootProject.ext.publish_script_path)
+    if (publishFile.exists()) {
+        apply from: publishFile
+    }
+}
+
+android {
+    namespace 'com.volcengine.effectone.auto.business'
+    compileSdk rootProject.ext.compileSdk
+
+    defaultConfig {
+        vectorDrawables.useSupportLibrary = true
+        minSdk rootProject.ext.minSdk
+        targetSdk rootProject.ext.targetSdk
+        consumerProguardFiles "consumer-rules.pro"
+        versionCode eoVersionCode()
+        versionName eoVersionName()
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility rootProject.ext.java_version
+        targetCompatibility rootProject.ext.java_version
+    }
+
+    kotlinOptions {
+        jvmTarget = rootProject.ext.kotlin_jvmTarget
+    }
+}
+
+dependencies {
+
+    implementation rootProject.ext.libs["app-compat"]
+    implementation rootProject.ext.libs["immersionbar"]
+    implementation rootProject.ext.libs["immersionbar-ktx"]
+    implementation rootProject.ext.libs["kotlinx-coroutines-core"]
+    implementation rootProject.ext.libs["kotlinx-coroutines-android"]
+    implementation rootProject.ext.libs["glide"]
+    implementation rootProject.ext.libs["okhttp"]
+    implementation rootProject.ext.libs["CK-CutSameIF"]
+
+    implementation "com.volcengine.ck.highlight:ck-highlight:${EO_SDK_VERSION}"
+
+    //拍摄
+    api project(":auto-recorder")
+    //剪同款
+    api project(":auto-templates")
+    //基础相册
+    api project(":auto-album")
+    //时光故事&高光成片
+    api project(":auto-moment")
+    //算法
+    api project(":auto-algorithm")
+}
+
+def eoVersionCode() {
+    if (project.hasProperty("VERSION_CODE")) {
+        return Integer.parseInt(VERSION_CODE)
+    } else {
+        "100000"
+    }
+}
+
+def eoVersionName() {
+    if (project.hasProperty("VERSION_NAME")) {
+        return VERSION_NAME
+    } else {
+        "NO_VERSION_NAME"
+    }
+}

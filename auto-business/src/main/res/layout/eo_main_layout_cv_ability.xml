@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<merge xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="@layout/eo_main_fragment_main">
+
+    <TextView
+        android:id="@+id/main_record_editor_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="拍摄能力"
+        android:textColor="#EEEEEE"
+        android:textSize="18sp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:ignore="HardcodedText,SpUsage" />
+
+    <ImageView
+        android:id="@+id/main_ordinary_record"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/eo_main_record_bg"
+        app:layout_constraintDimensionRatio="H,574:212" />
+
+    <ImageView
+        android:id="@+id/main_hl_record"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/eo_main_editor_bg"
+        app:layout_constraintDimensionRatio="H,574:212" />
+
+    <androidx.constraintlayout.helper.widget.Flow
+        android:id="@+id/main_record_editor_flow"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="12dp"
+        app:constraint_referenced_ids="main_ordinary_record,main_hl_record"
+        app:flow_horizontalStyle="spread_inside"
+        app:layout_constraintDimensionRatio="W,212:1174"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/main_record_editor_title" />
+
+    <TextView
+        android:id="@+id/main_intelligent_create_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="智能创作能力"
+        android:textColor="@color/white"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@id/main_creation_flow"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/main_record_editor_flow"
+        tools:ignore="HardcodedText,SpUsage" />
+
+
+    <ImageView
+        android:id="@+id/main_timeline_story"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/eo_main_moment_bg"
+        app:layout_constraintDimensionRatio="H,275:346" />
+
+
+    <ImageView
+        android:id="@+id/main_highlight_film"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/eo_main_highlight_bg"
+        app:layout_constraintDimensionRatio="H,275:346" />
+
+
+    <ImageView
+        android:id="@+id/main_templates"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/eo_main_templates_bg"
+        app:layout_constraintDimensionRatio="H,275:346" />
+
+    <ImageView
+        android:id="@+id/main_for_more"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:scaleType="centerInside"
+        android:src="@drawable/eo_main_for_more_bg"
+        app:layout_constraintDimensionRatio="H,275:346">
+
+    </ImageView>
+
+
+    <androidx.constraintlayout.helper.widget.Flow
+        android:id="@+id/main_creation_flow"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginTop="12dp"
+        app:constraint_referenced_ids="main_timeline_story,main_highlight_film,main_templates,main_for_more"
+        app:flow_horizontalStyle="spread_inside"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintDimensionRatio="W,346:1190"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+</merge>

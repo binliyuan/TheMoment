@@ -1,0 +1,84 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+}
+
+def canPublish = rootProject.ext.properties.containsKey("publish_script_path")
+if (canPublish) {
+    def publishFile = rootProject.file(rootProject.ext.publish_script_path)
+    if (publishFile.exists()) {
+        apply from: publishFile
+    }
+}
+
+android {
+    namespace 'com.volcengine.effectone.auto.moment'
+    compileSdk rootProject.ext.compileSdk
+
+    defaultConfig {
+        vectorDrawables.useSupportLibrary = true
+        minSdk rootProject.ext.minSdk
+        targetSdk rootProject.ext.targetSdk
+        consumerProguardFiles "consumer-rules.pro"
+        versionCode eoVersionCode()
+        versionName eoVersionName()
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility rootProject.ext.java_version
+        targetCompatibility rootProject.ext.java_version
+    }
+
+    kotlinOptions {
+        jvmTarget = rootProject.ext.kotlin_jvmTarget
+    }
+}
+
+dependencies {
+    implementation project(":auto-common")
+    implementation project(":auto-templates")
+    implementation rootProject.ext.libs["app-compat"]
+    implementation rootProject.ext.libs["material"]
+    implementation rootProject.ext.libs["constraintlayout"]
+    implementation rootProject.ext.libs["glide"]
+    implementation rootProject.ext.libs["gson"]
+    implementation rootProject.ext.libs["CK-CutSameIF"]
+
+
+    implementation "com.volcengine.ck.highlight:ck-highlight:${EO_SDK_VERSION}"
+    implementation "com.tencent.wcdb:wcdb-android:1.0.8"
+    implementation "com.volcengine.ck.moment:ck-moment:${EO_SDK_VERSION}"
+    implementation "com.volcengine.ck.moment:ck-moment-base:${EO_SDK_VERSION}"
+    implementation "com.volcano.ck.cutsame:CutSameUIIF:${EO_SDK_VERSION}"
+    implementation "com.volcengine.effectone:base-ui:${EO_SDK_VERSION}"
+    implementation "cn.everphoto.sdk:ec_extension:6.3.5"
+    //基础相册
+    implementation project(':auto-album')
+    //基础
+    implementation project(':auto-common')
+    //播放器
+    implementation 'com.google.android.exoplayer:exoplayer:r2.19.1'
+}
+
+def eoVersionCode() {
+    if (project.hasProperty("VERSION_CODE")) {
+        return Integer.parseInt(VERSION_CODE)
+    } else {
+        "100000"
+    }
+}
+
+def eoVersionName() {
+    if (project.hasProperty("VERSION_NAME")) {
+        return VERSION_NAME
+    } else {
+        "NO_VERSION_NAME"
+    }
+}

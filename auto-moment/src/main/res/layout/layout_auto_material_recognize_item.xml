@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="192dp"
+    tools:background="@android:color/black"
+    android:background="@drawable/auto_material_recognize_item_bg">
+
+    <ImageView
+        android:id="@+id/auto_material_recognize_item_cover"
+        android:layout_width="86dp"
+        android:layout_height="48.5dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="16dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        tools:background="@color/Primary" />
+
+    <TextView
+        android:id="@+id/auto_material_recognize_item_title"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="10dp"
+        android:layout_marginEnd="20dp"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:textColor="@android:color/white"
+        android:textSize="16dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@id/auto_material_recognize_item_cover"
+        app:layout_constraintTop_toTopOf="@id/auto_material_recognize_item_cover"
+        tools:text="西藏墨脱公路.mov" />
+
+    <TextView
+        android:id="@+id/auto_material_recognize_item_state"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:maxLines="1"
+        android:textColor="#99FFFFFF"
+        android:textSize="14dp"
+        app:layout_constraintBottom_toBottomOf="@id/auto_material_recognize_item_cover"
+        app:layout_constraintEnd_toEndOf="@id/auto_material_recognize_item_title"
+        app:layout_constraintStart_toStartOf="@id/auto_material_recognize_item_title"
+        app:layout_constraintTop_toBottomOf="@id/auto_material_recognize_item_title"
+        app:layout_constraintVertical_bias="0"
+        tools:text="视频素材-提取中..." />
+
+    <TextView
+        android:id="@+id/auto_material_recognize_item_category"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="12dp"
+        android:layout_marginBottom="14dp"
+        android:ellipsize="end"
+        android:lineSpacingExtra="5dp"
+        android:maxLines="3"
+        android:textColor="#99FFFFFF"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="@id/auto_material_recognize_item_title"
+        app:layout_constraintStart_toStartOf="@id/auto_material_recognize_item_cover"
+        app:layout_constraintTop_toBottomOf="@id/auto_material_recognize_item_cover"
+        app:layout_constraintVertical_bias="0"
+        tools:text="天空  关联性: 0.9161096\n天空  关联性: 0.9161096 \n天空  关联性: 0.9161096 \n天空  关联性: 0.9161096 \n天空  关联性: 0.9161096 \n天空  关联性: 0.9161096 \n" />
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="44dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="14dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:visibility="visible">
+
+        <LinearLayout
+            android:id="@+id/auto_material_recognize_loading"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="@drawable/auto_material_recognize_item_detail_bg"
+            android:gravity="center"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:visibility="gone">
+
+            <ImageView
+                android:id="@+id/auto_material_recognize_loading_view"
+                android:layout_width="18dp"
+                android:layout_height="18dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/auto_material_recognize_item_loading_icon" />
+
+            <TextView
+                android:id="@+id/auto_material_recognize_loading_tip"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="8dp"
+                android:gravity="center"
+                android:textStyle="bold"
+                android:text="算法识别中"
+                android:textColor="#88FFFFFF"
+                android:textSize="15.5dp" />
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/auto_material_recognize_go_detail"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="@drawable/auto_material_recognize_item_detail_bg"
+            android:gravity="center"
+            app:layout_constraintEnd_toStartOf="@id/auto_material_recognize_hl_extract"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:visibility="visible">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5.5dp"
+                android:gravity="center"
+                android:lineSpacingExtra="0dp"
+                android:text="查看详情"
+                android:textStyle="bold"
+                android:textColor="@android:color/white"
+                android:textSize="15.5dp" />
+
+            <ImageView
+                android:layout_width="16dp"
+                android:layout_height="16dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/auto_material_recognize_item_detail_arrow" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/auto_material_recognize_hl_extract"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_marginStart="10dp"
+            android:background="@drawable/auto_material_recognize_item_confirm_bg"
+            android:gravity="center"
+            android:text="高光提取"
+            android:lineSpacingExtra="0dp"
+            android:textColor="@android:color/white"
+            android:textSize="15.5dp"
+            android:textStyle="bold"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toEndOf="@id/auto_material_recognize_go_detail"
+            tools:visibility="visible" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

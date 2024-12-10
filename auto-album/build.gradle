@@ -1,0 +1,71 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+}
+
+def canPublish = rootProject.ext.properties.containsKey("publish_script_path")
+if (canPublish) {
+    def publishFile = rootProject.file(rootProject.ext.publish_script_path)
+    if (publishFile.exists()) {
+        apply from: publishFile
+    }
+}
+
+android {
+    namespace 'com.volcengine.effectone.auto.album'
+    compileSdk rootProject.ext.compileSdk
+
+    defaultConfig {
+        vectorDrawables.useSupportLibrary = true
+        minSdk rootProject.ext.minSdk
+        targetSdk rootProject.ext.targetSdk
+        consumerProguardFiles "consumer-rules.pro"
+        versionCode eoVersionCode()
+        versionName eoVersionName()
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility rootProject.ext.java_version
+        targetCompatibility rootProject.ext.java_version
+    }
+
+    kotlinOptions {
+        jvmTarget = rootProject.ext.kotlin_jvmTarget
+    }
+}
+
+dependencies {
+
+    implementation rootProject.ext.libs["app-compat"]
+    implementation rootProject.ext.libs["immersionbar"]
+    implementation rootProject.ext.libs["immersionbar-ktx"]
+    implementation rootProject.ext.libs["kotlinx-coroutines-core"]
+    implementation rootProject.ext.libs["kotlinx-coroutines-android"]
+    implementation rootProject.ext.libs["logkit"]
+    implementation "com.volcengine.effectone:base-ui:${EO_SDK_VERSION}"
+    implementation "com.volcengine.effectone:base-utils:${EO_SDK_VERSION}"
+    implementation "com.volcengine.ck.album:local-album:${EO_SDK_VERSION}"
+}
+
+def eoVersionCode() {
+    if (project.hasProperty("VERSION_NAME")) {
+        return Integer.parseInt(VERSION_CODE)
+    } else {
+        "100000"
+    }
+}
+
+def eoVersionName() {
+    if (project.hasProperty("VERSION_NAME")) {
+        return VERSION_NAME
+    } else {
+        "NO_VERSION_NAME"
+    }
+}

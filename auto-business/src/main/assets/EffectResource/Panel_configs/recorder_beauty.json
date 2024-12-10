@@ -1,0 +1,1195 @@
+{
+    "data": {
+        "tabs": [
+            {
+                "uniqueId": "b0001",
+                "titleDict": {
+                    "en": "Beauty Effects",
+                    "zh": "基础美颜"
+                },
+                "requirements": [
+                    {
+                        "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                        "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                    },
+                    {
+                        "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                        "md5": "D342795D110E4230666FB41B413AA638"
+                    }
+                ],
+                "subItems": [
+                    {
+                        "uniqueId": "b0002",
+                        "titleDict": {
+                            "en": "Buffing",
+                            "zh": "磨皮"
+                        },
+                        "builtInIcon": "eo_resource_beauty_smooth.png",
+                        "defaultOn": 1,
+                        "md5": "3F80B6A9EA5F57BCD36A5DD83C3E8BDD",
+                        "relativePath": "ComposeMakeup.bundle/ComposeMakeup/beauty_lite_new.zip",
+                        "param": {
+                            "intensity": 65,
+                            "key": "smooth",
+                            "path": "ComposeMakeup.bundle/ComposeMakeup/beauty_lite_new",
+                            "range": [
+                                0,
+                                100
+                            ]
+                        },
+                        "requirements": [
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                            },
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                "md5": "D342795D110E4230666FB41B413AA638"
+                            }
+                        ]
+                    },
+                    {
+                        "uniqueId": "b0003",
+                        "titleDict": {
+                            "en": "Toning",
+                            "zh": "美白"
+                        },
+                        "builtInIcon": "eo_resource_beauty_whiten.png",
+                        "defaultOn": 1,
+                        "md5": "3F80B6A9EA5F57BCD36A5DD83C3E8BDD",
+                        "relativePath": "ComposeMakeup.bundle/ComposeMakeup/beauty_lite_new.zip",
+                        "param": {
+                            "intensity": 35,
+                            "key": "whiten",
+                            "path": "ComposeMakeup.bundle/ComposeMakeup/beauty_lite_new",
+                            "range": [
+                                0,
+                                100
+                            ]
+                        },
+                        "requirements": [
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                            },
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                "md5": "D342795D110E4230666FB41B413AA638"
+                            }
+                        ]
+                    },
+                    {
+                        "uniqueId": "b0004",
+                        "titleDict": {
+                            "en": "Sharpening",
+                            "zh": "锐化"
+                        },
+                        "builtInIcon": "eo_resource_beauty_sharpen.png",
+                        "defaultOn": 1,
+                        "md5": "3F80B6A9EA5F57BCD36A5DD83C3E8BDD",
+                        "relativePath": "ComposeMakeup.bundle/ComposeMakeup/beauty_lite_new.zip",
+                        "param": {
+                            "intensity": 25,
+                            "key": "sharp",
+                            "path": "ComposeMakeup.bundle/ComposeMakeup/beauty_lite_new",
+                            "range": [
+                                0,
+                                100
+                            ]
+                        },
+                        "requirements": [
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                            },
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                "md5": "D342795D110E4230666FB41B413AA638"
+                            }
+                        ]
+                    },
+                    {
+                        "uniqueId": "b0005",
+                        "titleDict": {
+                            "en": "Clarity",
+                            "zh": "清晰"
+                        },
+                        "builtInIcon": "eo_resource_beauty_clarity.png",
+                        "md5": "3F80B6A9EA5F57BCD36A5DD83C3E8BDD",
+                        "relativePath": "ComposeMakeup.bundle/ComposeMakeup/beauty_lite_new.zip",
+                        "param": {
+                            "intensity": 30,
+                            "key": "clear",
+                            "path": "ComposeMakeup.bundle/ComposeMakeup/beauty_lite_new",
+                            "range": [
+                                0,
+                                100
+                            ]
+                        },
+                        "requirements": [
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                            },
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                "md5": "D342795D110E4230666FB41B413AA638"
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "uniqueId": "b0006",
+                "titleDict": {
+                    "en": "Makeup",
+                    "zh": "美妆"
+                },
+                "requirements": [
+                    {
+                        "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                        "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                    },
+                    {
+                        "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                        "md5": "D342795D110E4230666FB41B413AA638"
+                    }
+                ],
+                "subItems": [
+                    {
+                        "uniqueId": "b0007",
+                        "titleDict": {
+                            "en": "Lipstick",
+                            "zh": "口红"
+                        },
+                        "builtInIcon": "eo_resource_reshape_lipstick.png",
+                        "requirements": [
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                            },
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                "md5": "D342795D110E4230666FB41B413AA638"
+                            }
+                        ],
+                        "subItems": [
+                            {
+                                "uniqueId": "b0008",
+                                "titleDict": {
+                                    "en": "Vintage Red",
+                                    "zh": "复古红"
+                                },
+                                "builtInIcon": "eo_resource_reshape_lipstick.png",
+                                "md5": "15296B644BE46D108A4530ABE0334406",
+                                "relativePath": "ComposeMakeup.bundle/ComposeMakeup/lip/lite/fuguhong.zip",
+                                "param": {
+                                    "intensity": 30,
+                                    "key": "Internal_Makeup_Lips",
+                                    "path": "ComposeMakeup.bundle/ComposeMakeup/lip/lite/fuguhong",
+                                    "range": [
+                                        0,
+                                        100
+                                    ]
+                                },
+                                "requirements": [
+                                    {
+                                        "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                        "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                                    },
+                                    {
+                                        "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                        "md5": "D342795D110E4230666FB41B413AA638"
+                                    }
+                                ]
+                            },
+                            {
+                                "uniqueId": "b0009",
+                                "titleDict": {
+                                    "en": "Coral Pink",
+                                    "zh": "珊瑚粉"
+                                },
+                                "builtInIcon": "eo_resource_reshape_lipstick.png",
+                                "md5": "4A3D148D5B1B01251DB6885E0094131A",
+                                "relativePath": "ComposeMakeup.bundle/ComposeMakeup/lip/lite/shanhuse.zip",
+                                "param": {
+                                    "intensity": 30,
+                                    "key": "Internal_Makeup_Lips",
+                                    "path": "ComposeMakeup.bundle/ComposeMakeup/lip/lite/shanhuse",
+                                    "range": [
+                                        0,
+                                        100
+                                    ]
+                                },
+                                "requirements": [
+                                    {
+                                        "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                        "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                                    },
+                                    {
+                                        "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                        "md5": "D342795D110E4230666FB41B413AA638"
+                                    }
+                                ]
+                            },
+                            {
+                                "uniqueId": "b0010",
+                                "titleDict": {
+                                    "en": "Vivid Orange",
+                                    "zh": "元气橘"
+                                },
+                                "builtInIcon": "eo_resource_reshape_lipstick.png",
+                                "md5": "6E2E9542DA3F8D114B590A9E086D22EF",
+                                "relativePath": "ComposeMakeup.bundle/ComposeMakeup/lip/lite/yuanqiju.zip",
+                                "param": {
+                                    "intensity": 30,
+                                    "key": "Internal_Makeup_Lips",
+                                    "path": "ComposeMakeup.bundle/ComposeMakeup/lip/lite/yuanqiju",
+                                    "range": [
+                                        0,
+                                        100
+                                    ]
+                                },
+                                "requirements": [
+                                    {
+                                        "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                        "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                                    },
+                                    {
+                                        "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                        "md5": "D342795D110E4230666FB41B413AA638"
+                                    }
+                                ]
+                            },
+                            {
+                                "uniqueId": "b0011",
+                                "titleDict": {
+                                    "en": "Pomelo Red",
+                                    "zh": "西柚色"
+                                },
+                                "builtInIcon": "eo_resource_reshape_lipstick.png",
+                                "md5": "B3E4A5846D1C45D16608C48233D72569",
+                                "relativePath": "ComposeMakeup.bundle/ComposeMakeup/lip/lite/xiyouse.zip",
+                                "param": {
+                                    "intensity": 30,
+                                    "key": "Internal_Makeup_Lips",
+                                    "path": "ComposeMakeup.bundle/ComposeMakeup/lip/lite/xiyouse",
+                                    "range": [
+                                        0,
+                                        100
+                                    ]
+                                },
+                                "requirements": [
+                                    {
+                                        "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                        "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                                    },
+                                    {
+                                        "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                        "md5": "D342795D110E4230666FB41B413AA638"
+                                    }
+                                ]
+                            },
+                            {
+                                "uniqueId": "b0012",
+                                "titleDict": {
+                                    "en": "Puree Pink",
+                                    "zh": "豆沙粉"
+                                },
+                                "builtInIcon": "eo_resource_reshape_lipstick.png",
+                                "md5": "F434EB82FE495B1F14BDD9596CA1EF36",
+                                "relativePath": "ComposeMakeup.bundle/ComposeMakeup/lip/lite/doushafen.zip",
+                                "param": {
+                                    "intensity": 30,
+                                    "key": "Internal_Makeup_Lips",
+                                    "path": "ComposeMakeup.bundle/ComposeMakeup/lip/lite/doushafen",
+                                    "range": [
+                                        0,
+                                        100
+                                    ]
+                                },
+                                "requirements": [
+                                    {
+                                        "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                        "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                                    },
+                                    {
+                                        "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                        "md5": "D342795D110E4230666FB41B413AA638"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "uniqueId": "b0013",
+                        "titleDict": {
+                            "en": "Blush",
+                            "zh": "腮红"
+                        },
+                        "builtInIcon": "eo_resource_reshape_blush.png",
+                        "requirements": [
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                            },
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                "md5": "D342795D110E4230666FB41B413AA638"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhl4hpkg6_v5.0.model",
+                                "md5": "194F4C038CD35A4E07FF378DE97B8709"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kgh_v8.0.model",
+                                "md5": "8CDD9000E4DE6111E21B148B3BFA2D5B"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlgt4_v7.0.model",
+                                "md5": "4FFDB764F2EC8876B615A6865330E96C"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlhmg7p_v3.0.model",
+                                "md5": "EA8D1F0BCEE6B8DC4DE8AC2693C85FE2"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlhmi_v1.0.model",
+                                "md5": "93BB53B5394184A0495A278F7A801C3A"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlpah_v2.0.model",
+                                "md5": "9EB2F0B32B36C71220AE4645144596DA"
+                            },
+                            {
+                                "relativePath": "ttfaceattrmodel/algo_ggl4hpkg6lpgg7e_v2.0.model",
+                                "md5": "2C2DC971E4F7567D09D26F870965043B"
+                            }
+                        ],
+                        "subItems": [
+                            {
+                                "uniqueId": "b0014",
+                                "titleDict": {
+                                    "en": "Tipsy",
+                                    "zh": "微醺"
+                                },
+                                "builtInIcon": "eo_resource_reshape_blush.png",
+                                "md5": "3F105CB1521A011ADB09280309A505BE",
+                                "relativePath": "ComposeMakeup.bundle/ComposeMakeup/blush/lite/weixun.zip",
+                                "param": {
+                                    "intensity": 30,
+                                    "key": "Internal_Makeup_Blusher",
+                                    "path": "ComposeMakeup.bundle/ComposeMakeup/blush/lite/weixun",
+                                    "range": [
+                                        0,
+                                        100
+                                    ]
+                                },
+                                "requirements": [
+                                    {
+                                        "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                        "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                                    },
+                                    {
+                                        "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                        "md5": "D342795D110E4230666FB41B413AA638"
+                                    },
+                                    {
+                                        "relativePath": "ttfaceattrmodel/algo_ggl1pqhl4hpkg6_v5.0.model",
+                                        "md5": "194F4C038CD35A4E07FF378DE97B8709"
+                                    },
+                                    {
+                                        "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kgh_v8.0.model",
+                                        "md5": "8CDD9000E4DE6111E21B148B3BFA2D5B"
+                                    },
+                                    {
+                                        "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlgt4_v7.0.model",
+                                        "md5": "4FFDB764F2EC8876B615A6865330E96C"
+                                    },
+                                    {
+                                        "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlhmg7p_v3.0.model",
+                                        "md5": "EA8D1F0BCEE6B8DC4DE8AC2693C85FE2"
+                                    },
+                                    {
+                                        "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlhmi_v1.0.model",
+                                        "md5": "93BB53B5394184A0495A278F7A801C3A"
+                                    },
+                                    {
+                                        "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlpah_v2.0.model",
+                                        "md5": "9EB2F0B32B36C71220AE4645144596DA"
+                                    },
+                                    {
+                                        "relativePath": "ttfaceattrmodel/algo_ggl4hpkg6lpgg7e_v2.0.model",
+                                        "md5": "2C2DC971E4F7567D09D26F870965043B"
+                                    }
+                                ]
+                            },
+                            {
+                                "uniqueId": "b0015",
+                                "titleDict": {
+                                    "en": "Daily",
+                                    "zh": "日常"
+                                },
+                                "builtInIcon": "eo_resource_reshape_blush.png",
+                                "md5": "9587A71DBC659BE5AB72528BD3921471",
+                                "relativePath": "ComposeMakeup.bundle/ComposeMakeup/blush/lite/richang.zip",
+                                "param": {
+                                    "intensity": 30,
+                                    "key": "Internal_Makeup_Blusher",
+                                    "path": "ComposeMakeup.bundle/ComposeMakeup/blush/lite/richang",
+                                    "range": [
+                                        0,
+                                        100
+                                    ]
+                                },
+                                "requirements": [
+                                    {
+                                        "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                        "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                                    },
+                                    {
+                                        "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                        "md5": "D342795D110E4230666FB41B413AA638"
+                                    },
+                                    {
+                                        "relativePath": "ttfaceattrmodel/algo_ggl1pqhl4hpkg6_v5.0.model",
+                                        "md5": "194F4C038CD35A4E07FF378DE97B8709"
+                                    },
+                                    {
+                                        "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kgh_v8.0.model",
+                                        "md5": "8CDD9000E4DE6111E21B148B3BFA2D5B"
+                                    },
+                                    {
+                                        "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlgt4_v7.0.model",
+                                        "md5": "4FFDB764F2EC8876B615A6865330E96C"
+                                    },
+                                    {
+                                        "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlhmg7p_v3.0.model",
+                                        "md5": "EA8D1F0BCEE6B8DC4DE8AC2693C85FE2"
+                                    },
+                                    {
+                                        "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlhmi_v1.0.model",
+                                        "md5": "93BB53B5394184A0495A278F7A801C3A"
+                                    },
+                                    {
+                                        "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlpah_v2.0.model",
+                                        "md5": "9EB2F0B32B36C71220AE4645144596DA"
+                                    },
+                                    {
+                                        "relativePath": "ttfaceattrmodel/algo_ggl4hpkg6lpgg7e_v2.0.model",
+                                        "md5": "2C2DC971E4F7567D09D26F870965043B"
+                                    }
+                                ]
+                            },
+                            {
+                                "uniqueId": "b0016",
+                                "titleDict": {
+                                    "en": "Sunburn",
+                                    "zh": "晒伤"
+                                },
+                                "builtInIcon": "eo_resource_reshape_blush.png",
+                                "md5": "18601301CE057E670F7A886C2C2A861E",
+                                "relativePath": "ComposeMakeup.bundle/ComposeMakeup/blush/lite/shaishang.zip",
+                                "param": {
+                                    "intensity": 30,
+                                    "key": "Internal_Makeup_Blusher",
+                                    "path": "ComposeMakeup.bundle/ComposeMakeup/blush/lite/shaishang",
+                                    "range": [
+                                        0,
+                                        100
+                                    ]
+                                },
+                                "requirements": [
+                                    {
+                                        "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                        "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                                    },
+                                    {
+                                        "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                        "md5": "D342795D110E4230666FB41B413AA638"
+                                    },
+                                    {
+                                        "relativePath": "ttfaceattrmodel/algo_ggl1pqhl4hpkg6_v5.0.model",
+                                        "md5": "194F4C038CD35A4E07FF378DE97B8709"
+                                    },
+                                    {
+                                        "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kgh_v8.0.model",
+                                        "md5": "8CDD9000E4DE6111E21B148B3BFA2D5B"
+                                    },
+                                    {
+                                        "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlgt4_v7.0.model",
+                                        "md5": "4FFDB764F2EC8876B615A6865330E96C"
+                                    },
+                                    {
+                                        "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlhmg7p_v3.0.model",
+                                        "md5": "EA8D1F0BCEE6B8DC4DE8AC2693C85FE2"
+                                    },
+                                    {
+                                        "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlhmi_v1.0.model",
+                                        "md5": "93BB53B5394184A0495A278F7A801C3A"
+                                    },
+                                    {
+                                        "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlpah_v2.0.model",
+                                        "md5": "9EB2F0B32B36C71220AE4645144596DA"
+                                    },
+                                    {
+                                        "relativePath": "ttfaceattrmodel/algo_ggl4hpkg6lpgg7e_v2.0.model",
+                                        "md5": "2C2DC971E4F7567D09D26F870965043B"
+                                    }
+                                ]
+                            },
+                            {
+                                "uniqueId": "b0017",
+                                "titleDict": {
+                                    "en": "Calculating",
+                                    "zh": "心机"
+                                },
+                                "builtInIcon": "eo_resource_reshape_blush.png",
+                                "md5": "2B1882C3014CABD13BD9DDCD799FA020",
+                                "relativePath": "ComposeMakeup.bundle/ComposeMakeup/blush/lite/xinji.zip",
+                                "param": {
+                                    "intensity": 30,
+                                    "key": "Internal_Makeup_Blusher",
+                                    "path": "ComposeMakeup.bundle/ComposeMakeup/blush/lite/xinji",
+                                    "range": [
+                                        0,
+                                        100
+                                    ]
+                                },
+                                "requirements": [
+                                    {
+                                        "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                        "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                                    },
+                                    {
+                                        "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                        "md5": "D342795D110E4230666FB41B413AA638"
+                                    },
+                                    {
+                                        "relativePath": "ttfaceattrmodel/algo_ggl1pqhl4hpkg6_v5.0.model",
+                                        "md5": "194F4C038CD35A4E07FF378DE97B8709"
+                                    },
+                                    {
+                                        "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kgh_v8.0.model",
+                                        "md5": "8CDD9000E4DE6111E21B148B3BFA2D5B"
+                                    },
+                                    {
+                                        "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlgt4_v7.0.model",
+                                        "md5": "4FFDB764F2EC8876B615A6865330E96C"
+                                    },
+                                    {
+                                        "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlhmg7p_v3.0.model",
+                                        "md5": "EA8D1F0BCEE6B8DC4DE8AC2693C85FE2"
+                                    },
+                                    {
+                                        "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlhmi_v1.0.model",
+                                        "md5": "93BB53B5394184A0495A278F7A801C3A"
+                                    },
+                                    {
+                                        "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlpah_v2.0.model",
+                                        "md5": "9EB2F0B32B36C71220AE4645144596DA"
+                                    },
+                                    {
+                                        "relativePath": "ttfaceattrmodel/algo_ggl4hpkg6lpgg7e_v2.0.model",
+                                        "md5": "2C2DC971E4F7567D09D26F870965043B"
+                                    }
+                                ]
+                            },
+                            {
+                                "uniqueId": "b0018",
+                                "titleDict": {
+                                    "en": "Peach",
+                                    "zh": "蜜桃"
+                                },
+                                "builtInIcon": "eo_resource_reshape_blush.png",
+                                "md5": "FB00F300852C6E8AC39772AEB293D40D",
+                                "relativePath": "ComposeMakeup.bundle/ComposeMakeup/blush/lite/mitao.zip",
+                                "param": {
+                                    "intensity": 30,
+                                    "key": "Internal_Makeup_Blusher",
+                                    "path": "ComposeMakeup.bundle/ComposeMakeup/blush/lite/mitao",
+                                    "range": [
+                                        0,
+                                        100
+                                    ]
+                                },
+                                "requirements": [
+                                    {
+                                        "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                        "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                                    },
+                                    {
+                                        "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                        "md5": "D342795D110E4230666FB41B413AA638"
+                                    },
+                                    {
+                                        "relativePath": "ttfaceattrmodel/algo_ggl1pqhl4hpkg6_v5.0.model",
+                                        "md5": "194F4C038CD35A4E07FF378DE97B8709"
+                                    },
+                                    {
+                                        "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kgh_v8.0.model",
+                                        "md5": "8CDD9000E4DE6111E21B148B3BFA2D5B"
+                                    },
+                                    {
+                                        "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlgt4_v7.0.model",
+                                        "md5": "4FFDB764F2EC8876B615A6865330E96C"
+                                    },
+                                    {
+                                        "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlhmg7p_v3.0.model",
+                                        "md5": "EA8D1F0BCEE6B8DC4DE8AC2693C85FE2"
+                                    },
+                                    {
+                                        "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlhmi_v1.0.model",
+                                        "md5": "93BB53B5394184A0495A278F7A801C3A"
+                                    },
+                                    {
+                                        "relativePath": "ttfaceattrmodel/algo_ggl1pqhlpgg754kghlpah_v2.0.model",
+                                        "md5": "9EB2F0B32B36C71220AE4645144596DA"
+                                    },
+                                    {
+                                        "relativePath": "ttfaceattrmodel/algo_ggl4hpkg6lpgg7e_v2.0.model",
+                                        "md5": "2C2DC971E4F7567D09D26F870965043B"
+                                    }
+                                ]
+                            }
+                        ]
+                    },
+                    {
+                        "uniqueId": "b0019",
+                        "titleDict": {
+                            "en": "Contour",
+                            "zh": "修容"
+                        },
+                        "builtInIcon": "eo_resource_reshape_contour.png",
+                        "md5": "AA7519EB1E2B8AC9CBF5F51518C94665",
+                        "relativePath": "ComposeMakeup.bundle/ComposeMakeup/facial/jingzhi.zip",
+                        "param": {
+                            "intensity": 30,
+                            "key": "Internal_Makeup_Facial",
+                            "path": "ComposeMakeup.bundle/ComposeMakeup/facial/jingzhi",
+                            "range": [
+                                0,
+                                100
+                            ]
+                        },
+                        "requirements": [
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                            },
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                "md5": "D342795D110E4230666FB41B413AA638"
+                            }
+                        ]
+                    },
+                    {
+                        "uniqueId": "b0021",
+                        "titleDict": {
+                            "en": "Eyeshadow",
+                            "zh": "眼影"
+                        },
+                        "builtInIcon": "eo_resource_beauty_eyeshadow.png",
+                        "requirements": [
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                            },
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                "md5": "D342795D110E4230666FB41B413AA638"
+                            }
+                        ],
+                        "subItems": [
+                            {
+                                "uniqueId": "b0022",
+                                "titleDict": {
+                                    "en": "Plum Red",
+                                    "zh": "梅子红"
+                                },
+                                "builtInIcon": "eo_resource_beauty_eyeshadow.png",
+                                "md5": "8F8E6165746C71ED02BC2DAAFC3554F9",
+                                "relativePath": "ComposeMakeup.bundle/ComposeMakeup/eyeshadow/meizihong.zip",
+                                "param": {
+                                    "intensity": 30,
+                                    "key": "Internal_Makeup_Eye",
+                                    "path": "ComposeMakeup.bundle/ComposeMakeup/eyeshadow/meizihong",
+                                    "range": [
+                                        0,
+                                        100
+                                    ]
+                                },
+                                "requirements": [
+                                    {
+                                        "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                        "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                                    },
+                                    {
+                                        "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                        "md5": "D342795D110E4230666FB41B413AA638"
+                                    }
+                                ]
+                            },
+                            {
+                                "uniqueId": "b0023",
+                                "titleDict": {
+                                    "en": "Gorgerous Pink",
+                                    "zh": "气质粉"
+                                },
+                                "builtInIcon": "eo_resource_beauty_eyeshadow.png",
+                                "md5": "2A083191F3E31E8EB757EBFC8396DAB3",
+                                "relativePath": "ComposeMakeup.bundle/ComposeMakeup/eyeshadow/qizhifen.zip",
+                                "param": {
+                                    "intensity": 30,
+                                    "key": "Internal_Makeup_Eye",
+                                    "path": "ComposeMakeup.bundle/ComposeMakeup/eyeshadow/qizhifen",
+                                    "range": [
+                                        0,
+                                        100
+                                    ]
+                                },
+                                "requirements": [
+                                    {
+                                        "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                        "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                                    },
+                                    {
+                                        "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                        "md5": "D342795D110E4230666FB41B413AA638"
+                                    }
+                                ]
+                            },
+                            {
+                                "uniqueId": "b0024",
+                                "titleDict": {
+                                    "en": "Caramel Brown",
+                                    "zh": "焦糖棕"
+                                },
+                                "builtInIcon": "eo_resource_beauty_eyeshadow.png",
+                                "md5": "592AEAE8A000E173CC4205D4EC99E8A2",
+                                "relativePath": "ComposeMakeup.bundle/ComposeMakeup/eyeshadow/jiaotangzong.zip",
+                                "param": {
+                                    "intensity": 30,
+                                    "key": "Internal_Makeup_Eye",
+                                    "path": "ComposeMakeup.bundle/ComposeMakeup/eyeshadow/jiaotangzong",
+                                    "range": [
+                                        0,
+                                        100
+                                    ]
+                                },
+                                "requirements": [
+                                    {
+                                        "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                        "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                                    },
+                                    {
+                                        "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                        "md5": "D342795D110E4230666FB41B413AA638"
+                                    }
+                                ]
+                            },
+                            {
+                                "uniqueId": "b0025",
+                                "titleDict": {
+                                    "en": "Milktea Brown",
+                                    "zh": "奶茶色"
+                                },
+                                "builtInIcon": "eo_resource_beauty_eyeshadow.png",
+                                "md5": "A8FE4DAC7E04F9E58709A365D8EBDC3C",
+                                "relativePath": "ComposeMakeup.bundle/ComposeMakeup/eyeshadow/naichase.zip",
+                                "param": {
+                                    "intensity": 30,
+                                    "key": "Internal_Makeup_Eye",
+                                    "path": "ComposeMakeup.bundle/ComposeMakeup/eyeshadow/naichase",
+                                    "range": [
+                                        0,
+                                        100
+                                    ]
+                                },
+                                "requirements": [
+                                    {
+                                        "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                        "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                                    },
+                                    {
+                                        "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                        "md5": "D342795D110E4230666FB41B413AA638"
+                                    }
+                                ]
+                            },
+                            {
+                                "uniqueId": "b0026",
+                                "titleDict": {
+                                    "en": "Sunset Red",
+                                    "zh": "晚霞红"
+                                },
+                                "builtInIcon": "eo_resource_beauty_eyeshadow.png",
+                                "md5": "2888FB94AB1EE10EE2450B77EFF1BD2E",
+                                "relativePath": "ComposeMakeup.bundle/ComposeMakeup/eyeshadow/wanxiahong.zip",
+                                "param": {
+                                    "intensity": 30,
+                                    "key": "Internal_Makeup_Eye",
+                                    "path": "ComposeMakeup.bundle/ComposeMakeup/eyeshadow/wanxiahong",
+                                    "range": [
+                                        0,
+                                        100
+                                    ]
+                                },
+                                "requirements": [
+                                    {
+                                        "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                        "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                                    },
+                                    {
+                                        "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                        "md5": "D342795D110E4230666FB41B413AA638"
+                                    }
+                                ]
+                            }
+                        ]
+                    }
+                ]
+            },
+            {
+                "uniqueId": "b0027",
+                "titleDict": {
+                    "en": "Face shaping",
+                    "zh": "微整形"
+                },
+                "requirements": [
+                    {
+                        "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                        "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                    },
+                    {
+                        "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                        "md5": "D342795D110E4230666FB41B413AA638"
+                    }
+                ],
+                "subItems": [
+                    {
+                        "uniqueId": "b0028",
+                        "titleDict": {
+                            "en": "Lower Face Width",
+                            "zh": "瘦脸"
+                        },
+                        "builtInIcon": "eo_resource_reshape_lower_face_width.png",
+                        "defaultOn": 1,
+                        "md5": "84D114FCE07883323E7473BBBF0A73F2",
+                        "relativePath": "ComposeMakeup.bundle/ComposeMakeup/reshape_lite.zip",
+                        "param": {
+                            "intensity": 75,
+                            "key": "Internal_Deform_Overall",
+                            "path": "ComposeMakeup.bundle/ComposeMakeup/reshape_lite",
+                            "range": [
+                                0,
+                                100
+                            ]
+                        },
+                        "requirements": [
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                            },
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                "md5": "D342795D110E4230666FB41B413AA638"
+                            }
+                        ]
+                    },
+                    {
+                        "uniqueId": "b0029",
+                        "titleDict": {
+                            "en": "Eye Size",
+                            "zh": "大眼"
+                        },
+                        "builtInIcon": "eo_resource_reshape_eye_size.png",
+                        "defaultOn": 1,
+                        "md5": "84D114FCE07883323E7473BBBF0A73F2",
+                        "relativePath": "ComposeMakeup.bundle/ComposeMakeup/reshape_lite.zip",
+                        "param": {
+                            "intensity": 65,
+                            "key": "Internal_Deform_Eye",
+                            "path": "ComposeMakeup.bundle/ComposeMakeup/reshape_lite",
+                            "range": [
+                                0,
+                                100
+                            ]
+                        },
+                        "requirements": [
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                            },
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                "md5": "D342795D110E4230666FB41B413AA638"
+                            }
+                        ]
+                    },
+                    {
+                        "uniqueId": "b0030",
+                        "titleDict": {
+                            "en": "Upper Face Width",
+                            "zh": "窄脸"
+                        },
+                        "builtInIcon": "eo_resource_reshape_upper_face_width.png",
+                        "md5": "84D114FCE07883323E7473BBBF0A73F2",
+                        "relativePath": "ComposeMakeup.bundle/ComposeMakeup/reshape_lite.zip",
+                        "param": {
+                            "intensity": 30,
+                            "key": "Internal_Deform_CutFace",
+                            "path": "ComposeMakeup.bundle/ComposeMakeup/reshape_lite",
+                            "range": [
+                                0,
+                                100
+                            ]
+                        },
+                        "requirements": [
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                            },
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                "md5": "D342795D110E4230666FB41B413AA638"
+                            }
+                        ]
+                    },
+                    {
+                        "uniqueId": "b0031",
+                        "titleDict": {
+                            "en": "Head",
+                            "zh": "小头"
+                        },
+                        "builtInIcon": "eo_resource_reshape_small_head.png",
+                        "md5": "84D114FCE07883323E7473BBBF0A73F2",
+                        "relativePath": "ComposeMakeup.bundle/ComposeMakeup/reshape_lite.zip",
+                        "param": {
+                            "intensity": 30,
+                            "key": "BEF_BEAUTY_BODY_SHRINK_HEAD",
+                            "path": "ComposeMakeup.bundle/ComposeMakeup/reshape_lite",
+                            "range": [
+                                0,
+                                100
+                            ]
+                        },
+                        "requirements": [
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                            },
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                "md5": "D342795D110E4230666FB41B413AA638"
+                            }
+                        ]
+                    },
+                    {
+                        "uniqueId": "b0032",
+                        "titleDict": {
+                            "en": "Cheek",
+                            "zh": "瘦颧骨"
+                        },
+                        "builtInIcon": "eo_resource_reshape_cheek.png",
+                        "md5": "84D114FCE07883323E7473BBBF0A73F2",
+                        "relativePath": "ComposeMakeup.bundle/ComposeMakeup/reshape_lite.zip",
+                        "param": {
+                            "intensity": 30,
+                            "key": "Internal_Deform_Zoom_Cheekbone",
+                            "path": "ComposeMakeup.bundle/ComposeMakeup/reshape_lite",
+                            "range": [
+                                0,
+                                100
+                            ]
+                        },
+                        "requirements": [
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                            },
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                "md5": "D342795D110E4230666FB41B413AA638"
+                            }
+                        ]
+                    },
+                    {
+                        "uniqueId": "b0033",
+                        "titleDict": {
+                            "en": "Nose Width",
+                            "zh": "瘦鼻"
+                        },
+                        "builtInIcon": "eo_resource_reshape_nose_width.png",
+                        "md5": "84D114FCE07883323E7473BBBF0A73F2",
+                        "relativePath": "ComposeMakeup.bundle/ComposeMakeup/reshape_lite.zip",
+                        "param": {
+                            "intensity": 0,
+                            "key": "Internal_Deform_Nose",
+                            "path": "ComposeMakeup.bundle/ComposeMakeup/reshape_lite",
+                            "range": [
+                                -50,
+                                50
+                            ]
+                        },
+                        "requirements": [
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                            },
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                "md5": "D342795D110E4230666FB41B413AA638"
+                            }
+                        ]
+                    },
+                    {
+                        "uniqueId": "b0034",
+                        "titleDict": {
+                            "en": "Mouth Shape",
+                            "zh": "嘴型"
+                        },
+                        "builtInIcon": "eo_resource_reshape_mouth_shape.png",
+                        "md5": "84D114FCE07883323E7473BBBF0A73F2",
+                        "relativePath": "ComposeMakeup.bundle/ComposeMakeup/reshape_lite.zip",
+                        "param": {
+                            "intensity": 0,
+                            "key": "Internal_Deform_ZoomMouth",
+                            "path": "ComposeMakeup.bundle/ComposeMakeup/reshape_lite",
+                            "range": [
+                                -50,
+                                50
+                            ]
+                        },
+                        "requirements": [
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                            },
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                "md5": "D342795D110E4230666FB41B413AA638"
+                            }
+                        ]
+                    },
+                    {
+                        "uniqueId": "b0035",
+                        "titleDict": {
+                            "en": "Forehead",
+                            "zh": "额头"
+                        },
+                        "builtInIcon": "eo_resource_reshape_forehead.png",
+                        "md5": "84D114FCE07883323E7473BBBF0A73F2",
+                        "relativePath": "ComposeMakeup.bundle/ComposeMakeup/reshape_lite.zip",
+                        "param": {
+                            "intensity": 0,
+                            "key": "Internal_Deform_Forehead",
+                            "path": "ComposeMakeup.bundle/ComposeMakeup/reshape_lite",
+                            "range": [
+                                -50,
+                                50
+                            ]
+                        },
+                        "requirements": [
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                            },
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                "md5": "D342795D110E4230666FB41B413AA638"
+                            }
+                        ]
+                    },
+                    {
+                        "uniqueId": "b0036",
+                        "titleDict": {
+                            "en": "Teeth Whitening",
+                            "zh": "白牙"
+                        },
+                        "builtInIcon": "eo_resource_reshape_teeth_whitening.png",
+                        "md5": "A2B0B70E6809396402FFE8D34E632017",
+                        "relativePath": "ComposeMakeup.bundle/ComposeMakeup/beauty_4Items.zip",
+                        "param": {
+                            "intensity": 30,
+                            "key": "BEF_BEAUTY_WHITEN_TEETH",
+                            "path": "ComposeMakeup.bundle/ComposeMakeup/beauty_4Items",
+                            "range": [
+                                0,
+                                100
+                            ]
+                        },
+                        "requirements": [
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                            },
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                "md5": "D342795D110E4230666FB41B413AA638"
+                            }
+                        ]
+                    },
+                    {
+                        "uniqueId": "b0037",
+                        "titleDict": {
+                            "en": "Laugh Line",
+                            "zh": "法令纹"
+                        },
+                        "builtInIcon": "eo_resource_reshape_laugh_line.png",
+                        "md5": "A2B0B70E6809396402FFE8D34E632017",
+                        "relativePath": "ComposeMakeup.bundle/ComposeMakeup/beauty_4Items.zip",
+                        "param": {
+                            "intensity": 30,
+                            "key": "BEF_BEAUTY_SMILES_FOLDS",
+                            "path": "ComposeMakeup.bundle/ComposeMakeup/beauty_4Items",
+                            "range": [
+                                0,
+                                100
+                            ]
+                        },
+                        "requirements": [
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                            },
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                "md5": "D342795D110E4230666FB41B413AA638"
+                            }
+                        ]
+                    },
+                    {
+                        "uniqueId": "b0038",
+                        "titleDict": {
+                            "en": "Dark Circle",
+                            "zh": "黑眼圈"
+                        },
+                        "builtInIcon": "eo_resource_reshape_dark_circle.png",
+                        "md5": "A2B0B70E6809396402FFE8D34E632017",
+                        "relativePath": "ComposeMakeup.bundle/ComposeMakeup/beauty_4Items.zip",
+                        "param": {
+                            "intensity": 50,
+                            "key": "BEF_BEAUTY_REMOVE_POUCH",
+                            "path": "ComposeMakeup.bundle/ComposeMakeup/beauty_4Items",
+                            "range": [
+                                0,
+                                100
+                            ]
+                        },
+                        "requirements": [
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqh_v11.1.model",
+                                "md5": "F7360859FEB0EA5DF58DA9860EF9738F"
+                            },
+                            {
+                                "relativePath": "ttfacemodel/algo_ggl1pqhlhmg7p_v14.0.model",
+                                "md5": "D342795D110E4230666FB41B413AA638"
+                            }
+                        ]
+                    }
+                ]
+            }
+        ]
+    }
+}

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="eo_frontpage_videoeditor">Video Editor</string>
+    <string name="eo_frontpage_magictemplates">Magic Templates</string>
+    <string name="eo_frontpage_draft">Draft</string>
+    <string name="eo_frontpage_magictemplates_toast">Coming soon, stay tuned</string>
+    <string name="eo_frontpage_material_not_exist">material has been deleted, please select again</string>
+    <string name="eo_frontpage_auth_fail">Auth failed</string>
+</resources>

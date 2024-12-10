@@ -1,0 +1,98 @@
+{
+  "title": "城市通勤",
+  "cover": "",
+  "id": "1706512437",
+  "isPOI": false,
+  "config": {
+    "id": "f19f6b02-a1b3-4b75-8940-29e3b0107003",
+    "momentTemplates": [],
+    "requirement": {
+      "maxFilterCity": 1,
+      "minCount": 10,
+      "minScores": 0.6,
+      "pathFilter": "",
+      "requireTags": [
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "商业街"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "商场"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "街道"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "汽车"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "车流"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "晚会"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "演唱会"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "摩天轮"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "摩托车"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "自行车"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "高铁"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "吉他"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "火车"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "飞机"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "马路"
+        },
+        {
+          "priority": 49950,
+          "prob": 0.8,
+          "tag": "骑行"
+        }
+      ]
+    }
+  }
+}

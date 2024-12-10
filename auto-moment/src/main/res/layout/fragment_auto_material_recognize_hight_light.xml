@@ -1,0 +1,207 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="400dp"
+        android:layout_height="432dp"
+        android:background="@drawable/auto_material_recognize_hl_bg"
+        android:layout_gravity="center">
+
+        <FrameLayout
+            android:id="@+id/auto_material_recognize_hl_close_container"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:background="@drawable/auto_material_recognize_hl_title_bg"
+            android:paddingBottom="11dp"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent">
+
+            <ImageView
+                android:id="@+id/auto_material_recognize_hl_close"
+                android:layout_width="44dp"
+                android:layout_height="44dp"
+                android:layout_marginStart="12dp"
+                android:layout_marginTop="11dp"
+                android:scaleType="centerInside"
+                android:layout_gravity="center_vertical"
+                android:src="@drawable/auto_material_recognize_close_icon"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="高光筛选"
+                android:textColor="#ECECEC"
+                android:textSize="18dp"
+                app:layout_constraintBottom_toBottomOf="@id/auto_material_recognize_hl_close"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="@id/auto_material_recognize_hl_close" />
+        </FrameLayout>
+
+    <androidx.core.widget.NestedScrollView
+        android:id="@+id/auto_material_recognize_scroll"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:fillViewport="true"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/auto_material_recognize_hl_close_container">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/auto_material_recognize_hl_total_duration_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginEnd="30dp"
+                android:orientation="vertical"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/auto_material_recognize_hl_close">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="视频时长 (ms)"
+                    android:textColor="#F5F6FF"
+                    android:textSize="16dp" />
+
+                <TextView
+                    android:id="@+id/auto_material_recognize_hl_duration"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/auto_material_recognize_input_bg"
+                    android:gravity="center_vertical"
+                    android:paddingStart="24dp"
+                    android:textColor="#E6FFFFFF"
+                    android:textSize="18dp"
+                    tools:text="1004231" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/auto_material_recognize_hl_duration_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="高光时长 (ms)"
+                    android:textColor="#F5F6FF"
+                    android:textSize="16dp" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/auto_material_recognize_high_light_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/auto_material_recognize_input_bg"
+                    android:digits="0123456789"
+                    android:focusableInTouchMode="true"
+                    android:focusedByDefault="false"
+                    android:gravity="center_vertical"
+                    android:hint="输入高光时长"
+                    android:imeOptions="actionNext"
+                    android:inputType="number"
+                    android:nextFocusDown="@id/auto_material_recognize_next"
+                    android:paddingStart="24dp"
+                    android:textColor="#E6FFFFFF"
+                    android:textColorHint="#33EEEEEE"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/auto_material_recognize_category_container"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginEnd="30dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="高光关键词"
+                    android:textColor="#F5F6FF"
+                    android:textSize="16dp" />
+
+                <androidx.appcompat.widget.AppCompatEditText
+                    android:id="@+id/auto_material_recognize_category_et"
+                    android:layout_width="match_parent"
+                    android:layout_height="48dp"
+                    android:layout_marginTop="10dp"
+                    android:background="@drawable/auto_material_recognize_input_bg"
+                    android:focusableInTouchMode="true"
+                    android:focusedByDefault="false"
+                    android:gravity="center_vertical"
+                    android:hint="可输入关键词"
+                    android:imeOptions="actionDone"
+                    android:inputType="text"
+                    android:nextFocusDown="@id/auto_material_recognize_next"
+                    android:paddingStart="24dp"
+                    android:textColor="#E6FFFFFF"
+                    android:textColorHint="#33EEEEEE"
+                    android:textSize="18dp" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="48dp"
+                android:layout_marginStart="30dp"
+                android:layout_marginTop="24dp"
+                android:layout_marginEnd="30dp"
+                android:layout_marginBottom="24dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/auto_material_recognize_category_container">
+
+                <TextView
+                    android:id="@+id/auto_material_recognize_cancel"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@drawable/auto_material_recognize_item_detail_bg"
+                    android:gravity="center"
+                    android:lineSpacingExtra="0dp"
+                    android:maxLines="1"
+                    android:text="取消"
+                    android:textColor="#EEEEEE" />
+
+                <TextView
+                    android:id="@+id/auto_material_recognize_next"
+                    android:layout_width="0dp"
+                    android:layout_height="match_parent"
+                    android:layout_marginStart="10dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/auto_material_recognize_item_confirm_bg"
+                    android:gravity="center"
+                    android:lineSpacingExtra="0dp"
+                    android:maxLines="1"
+                    android:text="下一步"
+                    android:textColor="#EEEEEE" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </androidx.core.widget.NestedScrollView>
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>
+

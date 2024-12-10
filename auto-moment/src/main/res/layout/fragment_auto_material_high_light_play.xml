@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0C0C0C"
+    android:fitsSystemWindows="true">
+
+    <FrameLayout
+        android:id="@+id/auto_material_play_topContainer"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="20dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/auto_material_play_back"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_gravity="start|center_vertical"
+            android:scaleType="centerInside"
+            android:src="@drawable/moment_icon_back" />
+    </FrameLayout>
+
+    <FrameLayout
+        android:id="@+id/auto_material_play_surface_container"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@id/auto_material_play_bottom_controller"
+        app:layout_constraintDimensionRatio="w,16:9"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/auto_material_play_topContainer">
+
+    </FrameLayout>
+
+
+    <LinearLayout
+        android:id="@+id/auto_material_play_bottom_controller"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="18dp"
+        android:gravity="center_vertical"
+        app:layout_constraintBottom_toTopOf="@id/auto_material_play_bottom_controller_highLight_info"
+        app:layout_constraintStart_toStartOf="parent">
+
+        <ImageView
+            android:id="@+id/auto_material_play_bottom_controller_play"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:scaleType="centerInside"
+            android:src="@drawable/auto_material_recognize_play_button_icon" />
+
+        <com.volcengine.effectone.auto.moment.hl.widget.AutoHighLightSeekBar
+            android:id="@+id/auto_material_play_bottom_controller_seekBar"
+            android:layout_width="0dp"
+            android:layout_height="24dp"
+            android:layout_marginEnd="8dp"
+            android:layout_weight="1"
+            android:max="100"
+            android:paddingStart="8dp"
+            android:paddingTop="8dp"
+            android:paddingEnd="8dp"
+            android:paddingBottom="8dp"
+            android:progress="0"
+            android:progressDrawable="@drawable/auto_material_high_light_play_progress_drawable"
+            android:thumb="@drawable/auto_material_high_light_play_thumb" />
+
+        <TextView
+            android:id="@+id/auto_material_play_bottom_controller_duration"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center_vertical"
+            android:textSize="16dp"
+            tools:text="00:10/03:24"
+            tools:textColor="#EEEEEE" />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/auto_material_play_bottom_controller_highLight_info"
+        android:layout_width="wrap_content"
+        android:layout_height="37dp"
+        android:layout_marginStart="32dp"
+        android:layout_marginEnd="32dp"
+        android:layout_marginBottom="26dp"
+        android:background="@drawable/auto_material_high_light_play_info_bg"
+        android:gravity="center_vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintWidth_percent="0.825">
+
+        <TextView
+            android:id="@+id/auto_material_play_bottom_highLight_info_play"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:gravity="center"
+            android:lineSpacingExtra="0dp"
+            android:maxLines="1"
+            android:textSize="18dp"
+            android:text="播放高光片段"
+            android:textColor="#20D2EE" />
+
+        <ImageView
+            android:id="@+id/auto_material_play_bottom_highLight_info_play_view"
+            android:layout_width="16dp"
+            android:layout_height="16dp"
+            android:layout_marginLeft="8dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/auto_material_recognize_play_hl_icon" />
+
+        <View
+            android:layout_width="0.5dp"
+            android:layout_height="16dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginEnd="12dp"
+            android:background="@android:color/white" />
+
+        <TextView
+            android:id="@+id/auto_material_play_bottom_highLight_info_hl"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:maxWidth="504dp"
+            android:ellipsize="end"
+            android:gravity="center"
+            android:lineSpacingExtra="0dp"
+            android:maxLines="1"
+            android:textSize="18dp"
+            tools:text="高光时长：23000ms-27000ms 关键词：天空汽车风景人物画…"
+            tools:textColor="#EEEEEE" />
+
+        <ImageView
+            android:id="@+id/auto_material_play_bottom_highLight_info_pop"
+            android:layout_width="24dp"
+            android:layout_height="24dp"
+            android:layout_marginStart="4dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/auto_material_recognize_play_info"/>
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,63 @@
+{
+  "type": "music",
+  "resource": {
+    "list": [
+      {
+        "name": "Mustardttads",
+        "path": "Mustardttads_7255279619963535362/Mustardttads_7255279619963535362",
+        "icon": "Mustardttads_7255279619963535362/Mustardttads_7255279619963535362.jpg",
+        "hint": "",
+        "tags": "",
+        "duration": 60000
+      },
+      {
+        "name": "Time",
+        "path": "Time_7255279671863263234/Time_7255279671863263234",
+        "icon": "Time_7255279671863263234/Time_7255279671863263234.jpg",
+        "hint": "",
+        "tags": "",
+        "duration": 54000
+      },
+      {
+        "name": "cold",
+        "path": "cold_7255279680712966146/cold_7255279680712966146",
+        "icon": "cold_7255279680712966146/cold_7255279680712966146.jpg",
+        "hint": "",
+        "tags": "",
+        "duration": 39000
+      },
+      {
+        "name": "Plucker",
+        "path": "Plucker_7255279671863115778/Plucker_7255279671863115778",
+        "icon": "Plucker_7255279671863115778/Plucker_7255279671863115778.jpg",
+        "hint": "",
+        "tags": "",
+        "duration": 50000
+      },
+      {
+        "name": "Jubilant Shofar",
+        "path": "JubilantShofar_7255279626058465282/JubilantShofar_7255279626058465282",
+        "icon": "JubilantShofar_7255279626058465282/JubilantShofar_7255279626058465282.jpg",
+        "hint": "",
+        "tags": "",
+        "duration": 150000
+      },
+      {
+        "name": "Carefree Sorrow",
+        "path": "CarefreeSorrow_7255279633498800129/CarefreeSorrow_7255279633498800129",
+        "icon": "CarefreeSorrow_7255279633498800129/CarefreeSorrow_7255279633498800129.jpg",
+        "hint": "",
+        "tags": "",
+        "duration": 120000
+      },
+      {
+        "name": "Uneven Havoc",
+        "path": "UnevenHavoc_7255279629006946306/UnevenHavoc_7255279629006946306",
+        "icon": "UnevenHavoc_7255279629006946306/UnevenHavoc_7255279629006946306.jpg",
+        "hint": "",
+        "tags": "",
+        "duration": 120000
+      }
+    ]
+  }
+}

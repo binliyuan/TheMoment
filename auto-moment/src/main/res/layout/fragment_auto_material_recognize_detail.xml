@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="404dp"
+        android:layout_height="424dp"
+        android:layout_gravity="center"
+        android:background="@drawable/auto_material_recognize_hl_bg"
+        android:minWidth="404dp"
+        android:minHeight="424dp">
+
+        <ImageView
+            android:id="@+id/auto_material_recognize_detail_close"
+            android:layout_width="44dp"
+            android:layout_height="44dp"
+            android:layout_marginStart="12dp"
+            android:layout_marginTop="7.5dp"
+            android:scaleType="centerInside"
+            android:src="@drawable/auto_material_recognize_close_icon"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="识别结果"
+            android:textColor="#ECECEC"
+            android:textSize="18dp"
+            app:layout_constraintBottom_toBottomOf="@id/auto_material_recognize_detail_close"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="@id/auto_material_recognize_detail_close" />
+
+        <FrameLayout
+            android:id="@+id/auto_material_recognize_detail_frame_container"
+            android:layout_width="match_parent"
+            android:layout_height="210dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="10.5dp"
+            android:layout_marginEnd="20dp"
+            android:minHeight="210dp"
+            android:orientation="vertical"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/auto_material_recognize_detail_close">
+
+            <androidx.viewpager2.widget.ViewPager2
+                android:id="@+id/auto_material_recognize_detail_frame_viewpager"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+            <ImageView
+                android:id="@+id/auto_material_recognize_detail_frame_pre"
+                android:layout_width="wrap_content"
+                android:layout_height="24dp"
+                android:layout_gravity="start|center_vertical"
+                android:layout_marginStart="16dp"
+                android:background="@drawable/auto_material_recognize_detail_btn_bg"
+                android:padding="5dp"
+                android:scaleType="centerInside"
+                android:src="@drawable/auto_material_recognize_detail_pre_icon" />
+
+            <ImageView
+                android:id="@+id/auto_material_recognize_detail_frame_next"
+                android:layout_width="24dp"
+                android:layout_height="24dp"
+                android:padding="5dp"
+                android:layout_gravity="end|center_vertical"
+                android:background="@drawable/auto_material_recognize_detail_btn_bg"
+                android:src="@drawable/auto_material_recognize_detail_next_icon"
+                android:layout_marginEnd="16dp"
+                android:scaleType="centerInside" />
+
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/auto_material_recognize_detail_category_info"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="25dp"
+            android:lineSpacingExtra="0dp"
+            android:maxLines="1"
+            android:text="分类信息"
+            android:textColor="#99F5F6FF"
+            android:textSize="16dp"
+            app:layout_constraintEnd_toStartOf="@id/auto_material_recognize_detail_score_info"
+            app:layout_constraintHorizontal_weight="1.78"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@id/auto_material_recognize_detail_frame_container" />
+
+        <TextView
+            android:id="@+id/auto_material_recognize_detail_score_info"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="25dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginEnd="20dp"
+            android:lineSpacingExtra="0dp"
+            android:maxLines="1"
+            android:text="打分信息"
+            android:textColor="#99F5F6FF"
+            android:textSize="16dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_weight="1"
+            app:layout_constraintStart_toEndOf="@id/auto_material_recognize_detail_category_info"
+            app:layout_constraintTop_toBottomOf="@id/auto_material_recognize_detail_frame_container" />
+
+        <TextView
+            android:id="@+id/auto_material_recognize_detail_category_info_detail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="20dp"
+            android:lineSpacingExtra="4dp"
+            android:maxLines="5"
+            android:scrollbars="vertical"
+            android:textColor="#E6FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/auto_material_recognize_detail_category_info"
+            app:layout_constraintStart_toStartOf="@+id/auto_material_recognize_detail_category_info"
+            app:layout_constraintTop_toBottomOf="@id/auto_material_recognize_detail_category_info"
+            app:layout_constraintVertical_bias="0"
+            tools:text="天空 关联性: 0.9161096 \n汽车 关联性: 0.9161096 \n房子 关联性: 0.9161096 \n星空 关联性: 0.9161096 \n建筑物 关联性: 0.9161096 \n" />
+
+        <TextView
+            android:id="@+id/auto_material_recognize_detail_score_info_detail"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="8dp"
+            android:layout_marginBottom="20dp"
+            android:lineSpacingExtra="4dp"
+            android:maxLines="5"
+            android:scrollbars="vertical"
+            android:textColor="#E6FFFFFF"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="@id/auto_material_recognize_detail_score_info"
+            app:layout_constraintStart_toStartOf="@+id/auto_material_recognize_detail_score_info"
+            app:layout_constraintTop_toBottomOf="@id/auto_material_recognize_detail_score_info"
+            app:layout_constraintVertical_bias="0"
+            tools:text="天空 关联性: 0.9161096 \n汽车 关联性: 0.9161096 \n房子 关联性: 0.9161096 \n星空 关联性: 0.9161096 \n建筑物 关联性: 0.9161096 \n" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:visibility="invisible"
+    tools:visibility="visible">
+
+    <androidx.viewpager.widget.ViewPager
+        android:id="@+id/auto_preview_view_pager"
+        style="@style/ViewPagerForPreview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#302B45" />
+
+    <FrameLayout
+        android:id="@+id/auto_selector_view_content"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/btn_back"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="16dp"
+        android:layout_marginTop="16dp"
+        android:scaleType="centerInside"
+        app:srcCompat="@drawable/auto_album_back_icon"
+        tools:ignore="ContentDescription" />
+</FrameLayout>

@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners
+        android:radius="8dp" />
+    <gradient
+        android:endColor="@color/tab_indicator_end_color"
+        android:startColor="@color/tab_indicator_start_color"
+        android:type="linear" />
+</shape>

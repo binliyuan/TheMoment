@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="album_bg">#000000</color>
+    <color name="album_bg_30">#4D000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="white_10">#1AFFFFFF</color>
+    <color name="white_12">#1FFFFFFF</color>
+    <color name="white_30">#4DFFFFFF</color>
+    <color name="white_50">#80FFFFFF</color>
+    <color name="white_60">#99FFFFFF</color>
+    <color name="black">#000000</color>
+    <color name="black_50">#80000000</color>
+    <color name="album_folder_item">#CCF9F9F9</color>
+    <color name="album_tab_indicator_color">#514EFB</color>
+    <color name="album_confirm_unable_bg">#AFAEFD</color>
+    <color name="album_docker_item_num">#BBBBBB</color>
+    <color name="global_bg">#222222</color>
+    <color name="normal_widget_text">#EEEEEE</color>
+    <color name="normal_widget_bg">#2E3034</color>
+    <color name="normal_button_text">#EEEEEE</color>
+    <color name="normal_button_bg">#2E3034</color>
+    <color name="special_button_text">#EEEEEE</color>
+    <color name="special_button_bg">#5FCEE6</color>
+    <color name="selected_label_text">#FE2BAB</color>
+    <color name="disabled_label_text">#1FFFFFFF</color>
+    <color name="configure_dialog_bg">#FF212224</color>
+</resources>

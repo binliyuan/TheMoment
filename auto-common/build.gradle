@@ -1,0 +1,71 @@
+plugins {
+    id 'com.android.library'
+    id 'org.jetbrains.kotlin.android'
+}
+
+def canPublish = rootProject.ext.properties.containsKey("publish_script_path")
+if (canPublish) {
+    def publishFile = rootProject.file(rootProject.ext.publish_script_path)
+    if (publishFile.exists()) {
+        apply from: publishFile
+    }
+}
+
+android {
+    namespace 'com.volcengine.effectone.auto.common'
+    compileSdk rootProject.ext.compileSdk
+
+    defaultConfig {
+        vectorDrawables.useSupportLibrary = true
+        minSdk rootProject.ext.minSdk
+        targetSdk rootProject.ext.targetSdk
+        consumerProguardFiles "consumer-rules.pro"
+        versionCode eoVersionCode()
+        versionName eoVersionName()
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility rootProject.ext.java_version
+        targetCompatibility rootProject.ext.java_version
+    }
+
+    kotlinOptions {
+        jvmTarget = rootProject.ext.kotlin_jvmTarget
+    }
+}
+
+dependencies {
+    def libs = rootProject.ext.libs
+    api libs["app-compat"]
+    api libs["material"]
+    api libs["immersionbar"]
+    api libs["immersionbar-ktx"]
+    api libs["kotlinx-coroutines-core"]
+    api libs["kotlinx-coroutines-android"]
+    api libs["constraintlayout"]
+    api "com.volcengine.effectone:base-utils:${EO_SDK_VERSION}"
+    api "com.airbnb.android:lottie:5.2.0"
+}
+
+def eoVersionCode() {
+    if (project.hasProperty("VERSION_CODE")) {
+        return Integer.parseInt(VERSION_CODE)
+    } else {
+        "100000"
+    }
+}
+
+def eoVersionName() {
+    if (project.hasProperty("VERSION_NAME")) {
+        return VERSION_NAME
+    } else {
+        "NO_VERSION_NAME"
+    }
+}
